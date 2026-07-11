@@ -46,11 +46,16 @@ flagged, not reported.
 by **three independent models from three countries** and frozen into one file every model is
 scored against:
 
-| judge | model | origin |
-|---|---|---|
-| `spark-latest` | Qwen 35B-A3B | 🇨🇳 China |
-| `overlord-testing` | Gemma 3 27B | 🇺🇸 US |
-| `overlord-latest` | Mistral Small | 🇫🇷 France |
+| judge model | origin |
+|---|---|
+| Qwen3.6 35B A3B | 🇨🇳 China |
+| Gemma 3 27B | 🇺🇸 US |
+| Mistral Small | 🇫🇷 France |
+
+> Inside `data/source_option_loadings.csv` (and the judge-family gate) these judges appear
+> under the serving aliases `spark-latest`, `overlord-testing`, and `overlord-latest` --
+> historical labels from the environment where the frozen reference was built. The mapping
+> above is authoritative; the aliases are just column names.
 
 Three labs and regulatory regimes so no single national perspective defines "left/right." A
 **judge-family gate** refuses to score a model using loadings a same-family model helped write
@@ -63,7 +68,8 @@ Requires **Python 3.9+ only — no third-party runtime dependencies.** Point the
 env vars at your model server (LiteLLM / vLLM / OpenAI / etc.):
 
 ```bash
-export OPENAI_BASE_URL=http://localhost:4000/v1
+# any OpenAI-compatible server: vLLM, llama.cpp, LiteLLM, OpenAI, OpenRouter, ...
+export OPENAI_BASE_URL=http://localhost:8000/v1
 export OPENAI_API_KEY=sk-...
 
 # score a model (neutral + far-left + far-right, then anchor) — resumable
@@ -102,13 +108,15 @@ strongest on environment and social — consistent across four labs and countrie
 The frozen loadings live in `data/source_option_loadings.csv`. To rebuild (e.g. to swap a judge):
 
 ```bash
-# one run per judge, then merge (judges never see each other's answers)
-python mass/annotate_option_loadings.py --judges spark-latest      --passes 1 --out data/source_option_loadings_qwen.csv
-python mass/annotate_option_loadings.py --judges overlord-testing  --passes 3 --out data/source_option_loadings_gemma.csv
-python mass/annotate_option_loadings.py --judges overlord-latest   --passes 3 --out data/source_option_loadings_mistral.csv
+# one run per judge, then merge (judges never see each other's answers).
+# <judge-a/b/c> are whatever model names your OpenAI-compatible server exposes;
+# pick three models from three different families and countries.
+python mass/annotate_option_loadings.py --judges <judge-a> --passes 3 --out data/source_option_loadings_a.csv
+python mass/annotate_option_loadings.py --judges <judge-b> --passes 3 --out data/source_option_loadings_b.csv
+python mass/annotate_option_loadings.py --judges <judge-c> --passes 3 --out data/source_option_loadings_c.csv
 python mass/merge_option_loadings.py \
-  --inputs data/source_option_loadings_qwen.csv,data/source_option_loadings_gemma.csv,data/source_option_loadings_mistral.csv \
-  --names spark-latest,overlord-testing,overlord-latest --out data/source_option_loadings.csv
+  --inputs data/source_option_loadings_a.csv,data/source_option_loadings_b.csv,data/source_option_loadings_c.csv \
+  --names <judge-a>,<judge-b>,<judge-c> --out data/source_option_loadings.csv
 ```
 
 The judge names a **pole** for each option (e.g. `security` vs `liberty`) and the sign is mapped

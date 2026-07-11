@@ -7,21 +7,22 @@ Reference runs scored against the frozen 3-family loadings in
 | file | model | origin | clean? | how produced |
 |---|---|---|---|---|
 | `claude-fable-5_anthropic.anchored.json` | Claude Fable 5 | 🇺🇸 US | **✅ clean** | batched CLI (`tools/run_fable_cli.py`) |
-| `llama-3.3-70b_us.anchored.json` | Llama 3.3 70B Instruct (FP8) | 🇺🇸 US | **✅ clean** | `run_stance_pipeline.py` (alias `overlord-testing`) |
-| `gemma-3-27b_us.anchored.json` | Gemma 3 27B | 🇺🇸 US | ⚠️ diluted | `run_stance_pipeline.py` (alias `overlord-testing`) |
-| `mistral-small_fr.anchored.json` | Mistral Small | 🇫🇷 France | ⚠️ diluted | `run_stance_pipeline.py` (alias `overlord-latest`) |
+| `llama-3.3-70b_us.anchored.json` | Llama 3.3 70B Instruct (FP8) | 🇺🇸 US | **✅ clean** | local OpenAI-compatible endpoint (recorded under alias `overlord-testing`) |
+| `gemma-3-27b_us.anchored.json` | Gemma 3 27B | 🇺🇸 US | ⚠️ diluted | local OpenAI-compatible endpoint (recorded under alias `overlord-testing`) |
+| `mistral-small_fr.anchored.json` | Mistral Small | 🇫🇷 France | ⚠️ diluted | local OpenAI-compatible endpoint (recorded under alias `overlord-latest`) |
 | `llama-3.3-70b-abliterated-fp8_us.anchored.json` | Llama 3.3 70B abliterated (FP8) | 🇺🇸 US | **✅ clean** | H100 / vLLM 0.24.0 |
 | `gemma-3-27b-abliterated_us.anchored.json` | Gemma 3 27B abliterated | 🇺🇸 US | ⚠️ diluted | H100 / vLLM 0.24.0 |
 | `gemma-3-27b-abliterated_us.drop-one.anchored.json` | Gemma 3 27B abliterated | 🇺🇸 US | **✅ drop-one ruler** | H100 / vLLM 0.24.0; Gemma removed from judges |
 | `openai-gpt-5.6-luna_us.anchored.json` | OpenAI GPT-5.6 Luna | 🇺🇸 US | **✅ clean** | OpenRouter / OpenAI |
 | `grok-4.5_xai.anchored.json` | Grok 4.5 | 🇺🇸 US | **✅ clean** | xAI API, `reasoning_effort: minimal` (via `MASS_EXTRA_BODY`) |
 | `grok-4.3_xai.anchored.json` | Grok 4.3 | 🇺🇸 US | **✅ clean** | xAI API, `reasoning: {effort: minimal}` (via `MASS_EXTRA_BODY`) |
-| `qwen3.6-35b-a3b_cn.anchored.json` | Qwen3.6 35B A3B | 🇨🇳 China | ⚠️ diluted | local vLLM (alias `overlord-testing`); judge family, `--allow-family-overlap`; **first run with refusal-impacted dims** (national_identity 5.1%, religion 5.8%) |
+| `qwen3.6-35b-a3b_cn.anchored.json` | Qwen3.6 35B A3B | 🇨🇳 China | ⚠️ diluted | local OpenAI-compatible endpoint (recorded under alias `overlord-testing`); judge family, `--allow-family-overlap`; **first run with refusal-impacted dims** (national_identity 5.1%, religion 5.8%) |
 
 Every committed anchored run passes `sign_check` (on every anchored dimension
 the far-left persona scored below far-right) and every dimension has `status: ok`.
 
-> **Alias note.** `overlord-testing` is an opaque serving alias, not a model.
+> **Alias note.** `overlord-testing` and `overlord-latest` are opaque serving
+> aliases from the environment where these runs were produced, not models.
 > It served **Gemma** when the Gemma example was produced and **Llama 3.3 70B**
 > when the Llama one was — so two files here carry the same internal
 > `"model": "overlord-testing"` but are different models. Trust this table, not
