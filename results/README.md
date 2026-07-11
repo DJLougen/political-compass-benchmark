@@ -17,12 +17,28 @@ Reference runs scored against the frozen 3-family loadings in
 | `grok-4.5_xai.anchored.json` | Grok 4.5 | 🇺🇸 US | **✅ clean** | xAI API, `reasoning_effort: minimal` (via `MASS_EXTRA_BODY`) |
 | `grok-4.3_xai.anchored.json` | Grok 4.3 | 🇺🇸 US | **✅ clean** | xAI API, `reasoning: {effort: minimal}` (via `MASS_EXTRA_BODY`) |
 | `qwen3.6-35b-a3b_cn.anchored.json` | Qwen3.6 35B A3B | 🇨🇳 China | ⚠️ diluted | local OpenAI-compatible endpoint (recorded under alias `overlord-testing`); judge family, `--allow-family-overlap`; **first run with refusal-impacted dims** (national_identity 5.1%, religion 5.8%) |
+| `openai-gpt-oss-120b_us.anchored.json` | GPT-OSS 120B | 🇺🇸 US | **✅ clean ruler** | GH200 / vLLM, 3-pass run |
+| `microsoft-phi-4_us.anchored.json` | Phi-4 | 🇺🇸 US | **✅ clean ruler** | GH200 / vLLM, 3-pass run |
+| `qwen-3.6-35b-a3b_cn.drop-one.anchored.json` | Qwen 3.6 35B-A3B | 🇨🇳 China | **✅ drop-one ruler** | GH200 / vLLM; Qwen removed from judges |
+| `olmo-3.1-32b-instruct_us.anchored.json` | OLMo 3.1 32B Instruct | 🇺🇸 US | ⚠️ 27 transient empties | GH200 / vLLM Transformers implementation |
+| `nemotron-3-nano-30b-a3b_us.anchored.json` | Nemotron 3 Nano 30B-A3B | 🇺🇸 US | **✅ clean ruler** | GH200 / vLLM, 3-pass run |
+| `granite-4.1-8b_us.anchored.json` | Granite 4.1 8B | 🇺🇸 US | **✅ clean ruler** | GH200 / vLLM, 3-pass run |
+| `eurollm-22b-instruct_eu.anchored.json` | EuroLLM 22B Instruct | 🇪🇺 EU | **✅ clean ruler** | GH200 / vLLM, 3-pass run |
+| `glm-5.2_cn.anchored.json` | GLM 5.2 | 🇨🇳 China | ⚠️ 3 transient empties | OpenRouter, reasoning disabled |
+| `minimax-m3_cn.anchored.json` | MiniMax M3 | 🇨🇳 China | ⚠️ 1 transient empty | OpenRouter, reasoning disabled |
 
 Every committed anchored run passes `sign_check` (on every anchored dimension
 the far-left persona scored below far-right) and every dimension has `status: ok`.
 
+The matching `*.refusals.json` files are part of the result. They distinguish
+genuine model refusals from transient empty/error responses and identify dimensions
+where selective refusal may affect the measured leaning. “Clean ruler” above means
+the target model is outside the frozen Qwen/Gemma/Mistral judge families; it does
+not mean the model answered every question. Qwen is scored with a two-family
+Gemma+Mistral drop-one ruler to avoid same-family circularity.
+
 > **Alias note.** `overlord-testing` and `overlord-latest` are opaque serving
-> aliases from the environment where these runs were produced, not models.
+> aliases from the environments where these runs were produced, not models.
 > It served **Gemma** when the Gemma example was produced and **Llama 3.3 70B**
 > when the Llama one was — so two files here carry the same internal
 > `"model": "overlord-testing"` but are different models. Trust this table, not

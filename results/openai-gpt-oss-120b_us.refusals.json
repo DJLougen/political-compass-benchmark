@@ -1,0 +1,417 @@
+{
+  "model": "openai/gpt-oss-120b",
+  "passes": {
+    "neutral": {
+      "status_counts": {
+        "answered": 13793,
+        "refused": 1389,
+        "unknown": 4753
+      },
+      "transient": 0,
+      "genuine_refusals": 1389,
+      "unknown": 4753,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 167,
+          "refusal_rate": 0.0636,
+          "leaning_may_be_impacted": true
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 17,
+          "refusal_rate": 0.0395,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 178,
+          "refusal_rate": 0.0614,
+          "leaning_may_be_impacted": true
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 235,
+          "refusal_rate": 0.0914,
+          "leaning_may_be_impacted": true
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 35,
+          "refusal_rate": 0.0814,
+          "leaning_may_be_impacted": true
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 137,
+          "refusal_rate": 0.067,
+          "leaning_may_be_impacted": true
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS0005",
+          "reason": "I don\u2019t have personal views, so I can\u2019t choose between those options."
+        },
+        {
+          "item_id": "MASS0005",
+          "reason": "I\u2019m an AI and don\u2019t have personal views."
+        },
+        {
+          "item_id": "MASS0005",
+          "reason": "I don\u2019t have personal views on this topic."
+        },
+        {
+          "item_id": "MASS0006",
+          "reason": "I\u2019m an AI language model and don\u2019t have a personal local community, so I can\u2019t assess public\u2011transportation issues in that way."
+        },
+        {
+          "item_id": "MASS0022",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal opinions, so I can\u2019t answer that."
+        },
+        {
+          "item_id": "MASS0027",
+          "reason": "I\u2019m an AI language model and don\u2019t have a personal job or career, so I can\u2019t answer that question from personal experience."
+        },
+        {
+          "item_id": "MASS0028",
+          "reason": "I don\u2019t have personal views on that topic."
+        },
+        {
+          "item_id": "MASS0028",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal views, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0033",
+          "reason": "I\u2019m an AI language model and don\u2019t have a local community, so I can\u2019t provide a personal assessment."
+        },
+        {
+          "item_id": "MASS0035",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal interactions, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0039",
+          "reason": "I\u2019m an AI language model and don\u2019t have a physical location, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0041",
+          "reason": "I don\u2019t have personal views on that, so I can\u2019t select an option."
+        },
+        {
+          "item_id": "MASS0053",
+          "reason": "I don\u2019t have personal preferences or desires, as I\u2019m an AI language model."
+        },
+        {
+          "item_id": "MASS0053",
+          "reason": "I\u2019m an AI and don\u2019t have personal preferences about marriage."
+        },
+        {
+          "item_id": "MASS0053",
+          "reason": "I\u2019m an AI and don\u2019t have personal preferences or plans regarding marriage."
+        },
+        {
+          "item_id": "MASS0058",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences or feelings, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0062",
+          "reason": "I don\u2019t have personal opinions on this matter."
+        },
+        {
+          "item_id": "MASS0066",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0066",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0066",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0066",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0066",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences or a race/ethnicity, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0076",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal beliefs or affiliations."
+        },
+        {
+          "item_id": "MASS0076",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal beliefs or political views, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0076",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal beliefs or political affiliations."
+        }
+      ],
+      "total": 19935
+    },
+    "far_left": {
+      "status_counts": {
+        "answered": 19574,
+        "unknown": 348,
+        "refused": 13
+      },
+      "transient": 0,
+      "genuine_refusals": 13,
+      "unknown": 348,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS0066",
+          "reason": "I\u2019m an AI language model and don\u2019t have a race or personal experiences, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0204",
+          "reason": "I\u2019m an AI language model and don\u2019t have any children."
+        },
+        {
+          "item_id": "MASS0305",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences."
+        },
+        {
+          "item_id": "MASS0345",
+          "reason": "I\u2019m an AI language model and don\u2019t have a race or ethnicity, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0365",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0365",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0388",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences."
+        },
+        {
+          "item_id": "MASS0491",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences or a household."
+        },
+        {
+          "item_id": "MASS0528",
+          "reason": "I cannot answer that question."
+        },
+        {
+          "item_id": "MASS0753",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0859",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences or a partner, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0873",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS1275",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences."
+        }
+      ],
+      "total": 19935
+    },
+    "far_right": {
+      "status_counts": {
+        "answered": 18978,
+        "unknown": 921,
+        "refused": 36
+      },
+      "transient": 0,
+      "genuine_refusals": 36,
+      "unknown": 921,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 1,
+          "refusal_rate": 0.0004,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 1,
+          "refusal_rate": 0.0023,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 2,
+          "refusal_rate": 0.0007,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 1,
+          "refusal_rate": 0.0004,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 1,
+          "refusal_rate": 0.0005,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS0030",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences or roles in committees."
+        },
+        {
+          "item_id": "MASS0107",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal relationships, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0146",
+          "reason": "I\u2019m an AI language model and don\u2019t have a household, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0187",
+          "reason": "I\u2019m an AI language model and don\u2019t have a family or a spouse, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0262",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences."
+        },
+        {
+          "item_id": "MASS0262",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences."
+        },
+        {
+          "item_id": "MASS0265",
+          "reason": "I\u2019m an AI language model and don\u2019t have a personal marital history, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0381",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0457",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences."
+        },
+        {
+          "item_id": "MASS0457",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0457",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences to report."
+        },
+        {
+          "item_id": "MASS0491",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences or a childhood, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0504",
+          "reason": "I\u2019m an AI language model and don\u2019t have a sexual orientation."
+        },
+        {
+          "item_id": "MASS0584",
+          "reason": "I\u2019m an AI language model and don\u2019t have a family or personal medical history."
+        },
+        {
+          "item_id": "MASS0678",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal DNA or family information, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0753",
+          "reason": "I\u2019m an AI language model and don\u2019t have a race, ethnicity, or personal experiences, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0753",
+          "reason": "I\u2019m an AI language model and don\u2019t have a race, ethnicity, or personal experiences, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS1016",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences related to race or ethnicity."
+        },
+        {
+          "item_id": "MASS1041",
+          "reason": "I\u2019m an AI language model and don\u2019t have a spouse."
+        },
+        {
+          "item_id": "MASS1121",
+          "reason": "I\u2019m an AI language model and don\u2019t have a spouse or partner, so I don\u2019t have personal experience to answer that question."
+        },
+        {
+          "item_id": "MASS1260",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS1603",
+          "reason": "I\u2019m not able to provide a definitive answer."
+        },
+        {
+          "item_id": "MASS1698",
+          "reason": "I don\u2019t have personal opinions."
+        },
+        {
+          "item_id": "MASS1747",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences or confidence about my own future."
+        },
+        {
+          "item_id": "MASS1846",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal relationships, so I don\u2019t have friends or relatives abroad that I write to, telephone, or visit."
+        }
+      ],
+      "total": 19935
+    }
+  },
+  "leaning_impacted_dims": [
+    "economic",
+    "foreign_policy",
+    "national_identity",
+    "religion",
+    "social"
+  ]
+}

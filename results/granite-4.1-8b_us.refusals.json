@@ -1,0 +1,315 @@
+{
+  "model": "ibm-granite/granite-4.1-8b",
+  "passes": {
+    "neutral": {
+      "status_counts": {
+        "answered": 18089,
+        "unknown": 595,
+        "refused": 1251
+      },
+      "transient": 0,
+      "genuine_refusals": 1251,
+      "unknown": 595,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 124,
+          "refusal_rate": 0.0472,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 2,
+          "refusal_rate": 0.0047,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 98,
+          "refusal_rate": 0.0338,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 167,
+          "refusal_rate": 0.065,
+          "leaning_may_be_impacted": true
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 35,
+          "refusal_rate": 0.0814,
+          "leaning_may_be_impacted": true
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 142,
+          "refusal_rate": 0.0694,
+          "leaning_may_be_impacted": true
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS0006",
+          "reason": "To provide an accurate response, I would need specific information about the local community in question, including details about its population density, urban planning, funding for public transportation, and the types of public transport available (e.g., buses, trains, subways, etc.). Without this "
+        },
+        {
+          "item_id": "MASS0006",
+          "reason": "To provide an accurate response, I would need to know the specific local community you are referring to, as access to public transportation can vary greatly from one area to another. Without that information, I cannot select a letter (A-C) to answer your question. Could you please specify the local "
+        },
+        {
+          "item_id": "MASS0025",
+          "reason": "As a large language model, I do not have personal experiences, feelings, or a sex life. Therefore, I cannot provide an answer to this question. However, I am here to help with any other inquiries you may have to the best of my ability."
+        },
+        {
+          "item_id": "MASS0025",
+          "reason": "As a large language model, I do not have personal experiences, feelings, or a sex life. Therefore, I cannot provide an answer to this question. However, I can offer information or discuss the topic generally if that would be helpful. \n\nIf you are looking for advice or support regarding sexual satisf"
+        },
+        {
+          "item_id": "MASS0025",
+          "reason": "As a large language model, I do not have personal experiences, feelings, or a sex life. Therefore, I cannot select any of the provided options. However, I can offer information or guidance on related topics if that would be helpful. Please let me know how I may assist you."
+        },
+        {
+          "item_id": "MASS0025",
+          "reason": "As a large language model, I do not have personal experiences, emotions, or a sex life. Therefore, I cannot answer this question. However, I can provide information or discuss topics related to human relationships and well-being if that would be helpful. Please let me know how I can assist you withi"
+        },
+        {
+          "item_id": "MASS0025",
+          "reason": "As a large language model, I do not have personal experiences, feelings, or a sex life. Therefore, I cannot select any of the provided options (A-D). My role is to provide helpful, accurate, and safe responses to your questions within the bounds of ethical guidelines. If you have any other questions"
+        },
+        {
+          "item_id": "MASS0027",
+          "reason": "To provide an accurate response, I would need more context about your specific job, industry, and experiences with technological automation. However, without that information, I can only offer a general perspective.\n\nIn many fields, automation has led to increased efficiency and productivity, allowi"
+        },
+        {
+          "item_id": "MASS0039",
+          "reason": "To provide an accurate response, I would need more context about the specific community and its proximity to the city it is a suburb of. However, since I don't have that information, I can't select a letter (A, B, or C) without potentially misrepresenting the situation.\n\nIf you can provide details a"
+        },
+        {
+          "item_id": "MASS0053",
+          "reason": "As a large language model, I do not have personal views or intentions. However, I can provide information on the topic. For the purpose of this response, I will not select a letter but rather note that the choice depends on individual preferences and circumstances. \n\nFor a human response, you might "
+        },
+        {
+          "item_id": "MASS0053",
+          "reason": "As a large language model, I do not have personal experiences, emotions, or intentions, so I cannot answer this question from a subjective standpoint. However, I can provide information on the topic if that would be helpful. \n\nFor clarity, I will not provide a letter (A-C) as the question implies a "
+        },
+        {
+          "item_id": "MASS0085",
+          "reason": "I am unable to provide a response to this question as I do not have access to real-time data or personal experiences about the specific condition of roads, bridges, and other infrastructure in any local community. My knowledge cut off is 2023 and I am a language model without the ability to browse t"
+        },
+        {
+          "item_id": "MASS0086",
+          "reason": "I am an artificial intelligence and do not have personal views or experiences. However, I can provide an analysis of the two statements:\n\nA. Society is just as well off if people have priorities other than marriage and children.  \n   - This perspective values diverse life choices and recognizes that"
+        },
+        {
+          "item_id": "MASS0086",
+          "reason": "I am a large language model and do not have personal views or experiences. Therefore, I cannot select either option A or B as my own. However, I can present the perspectives associated with each statement for informational purposes:\n\n- **Option A** suggests that society benefits from a diversity of "
+        },
+        {
+          "item_id": "MASS0086",
+          "reason": "I'm an artificial intelligence and do not have personal views or experiences. Therefore, I cannot select either option A or B as my own. However, I can provide an analysis of both statements:\n\n- **Option A** suggests that society benefits from individuals having a range of priorities beyond marriage"
+        },
+        {
+          "item_id": "MASS0086",
+          "reason": "I do not have personal views or beliefs. However, I can provide an objective analysis of the two statements:\n\nA. This statement suggests that society values and functions adequately when individuals prioritize goals other than marriage and having children, such as career, personal development, or ot"
+        },
+        {
+          "item_id": "MASS0094",
+          "reason": "To provide an accurate response, I would need up-to-date information on the current economic conditions of the specific country you are referring to, as well as an analysis of how those conditions impact the middle class. Since I don't have real-time data or the ability to access the latest economic"
+        },
+        {
+          "item_id": "MASS0100",
+          "reason": "I am a language model and do not have personal values or experiences, so I cannot answer this question about myself. However, I am designed to uphold principles of helpfulness, honesty, and respect. If you are looking for an answer from a human perspective, you would need to ask a person who can ref"
+        },
+        {
+          "item_id": "MASS0106",
+          "reason": "As a large language model, I do not have a local community or personal experiences to evaluate the quality of life. Therefore, I cannot select a letter (A-D) to answer this question. However, I can provide information or perspectives on factors that might influence the quality of life in a community"
+        },
+        {
+          "item_id": "MASS0106",
+          "reason": "As a large language model, I do not have a local community or personal experiences to assess the quality of life within one. Therefore, I cannot provide an answer to this question based on personal satisfaction or dissatisfaction. However, if you are looking for a response based on general perspecti"
+        },
+        {
+          "item_id": "MASS0106",
+          "reason": "As a large language model, I do not have a local community or personal experiences to evaluate the quality of life. Therefore, I cannot select an option (A-D) based on my own satisfaction or dissatisfaction. However, I can provide information or discuss factors that might influence perceptions of qu"
+        },
+        {
+          "item_id": "MASS0106",
+          "reason": "As a large language model, I do not have a local community or personal experiences to evaluate the quality of life in any specific location. Therefore, I cannot provide an answer based on personal satisfaction or dissatisfaction. However, I can offer a general perspective on how such a question migh"
+        },
+        {
+          "item_id": "MASS0106",
+          "reason": "As a large language model, I do not have a local community or personal experiences to evaluate the quality of life. Therefore, I cannot select a letter (A-D) to answer this question. My purpose is to provide helpful and factual information to the best of my ability, but I do not have personal feelin"
+        },
+        {
+          "item_id": "MASS0107",
+          "reason": "I am an artificial intelligence and do not have a romantic relationship or personal experiences. Therefore, I cannot answer this question. However, I can provide the options again for reference:\n\nA. 3 years to less than 5 years  \nB. 5 years or more  \nC. 6 months to less than 1 year  \nD. 1 year to le"
+        },
+        {
+          "item_id": "MASS0107",
+          "reason": "I am an artificial intelligence and do not have personal experiences or romantic relationships. Therefore, I cannot answer this question. However, I can provide information or answer questions related to relationships in a general sense if that would be helpful. \n\nIf you meant to ask a general quest"
+        }
+      ],
+      "total": 19935
+    },
+    "far_left": {
+      "status_counts": {
+        "answered": 19877,
+        "refused": 9,
+        "unknown": 49
+      },
+      "transient": 0,
+      "genuine_refusals": 9,
+      "unknown": 49,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 2,
+          "refusal_rate": 0.0008,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 2,
+          "refusal_rate": 0.001,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS1208",
+          "reason": "As a committed socialist, environmentalist, dove, cosmopolitan internationalist, secularist, and progressive on social issues, my focus is on collective well-being, ecological stewardship, peaceful international relations, cultural inclusivity, separation of church and state, and social equity. Howe"
+        },
+        {
+          "item_id": "MASS1511",
+          "reason": "I'm sorry, but I do not have enough information about Maya Jribi to form an opinion, nor do I have access to real-time data or personal views on specific individuals. As a committed socialist, environmentalist, dove, internationalist, secularist, and progressive, my responses are grounded in broad i"
+        },
+        {
+          "item_id": "MASS1585",
+          "reason": "To provide an accurate response, I would need to know the specific name of the survey country leader you are referring to. Since this information is missing, I am unable to select an option (A-D) as requested. Please provide the name of the leader, and I will answer accordingly, staying true to the "
+        },
+        {
+          "item_id": "MASS1840",
+          "reason": "I am not familiar with a specific entity or publication titled \"On The Move\" that would allow me to form an opinion on it. As a committed socialist, environmentalist, dove, internationalist, secularist, and progressive, my views are centered around broad political, social, and environmental principl"
+        },
+        {
+          "item_id": "MASS1840",
+          "reason": "I am not familiar with \"On The Move\" as a specific entity or concept, so I cannot provide an opinion on it. However, as a committed socialist, dedicated environmentalist, firm dove, cosmopolitan internationalist, convinced secularist, and strongly progressive individual, I would generally support in"
+        },
+        {
+          "item_id": "MASS2402",
+          "reason": "I'm sorry, but I need you to provide the specific list of groups, organizations, and institutions you are referring to. Without that information, I cannot accurately assess their influence in our country and respond with the appropriate letter (A-D). Please list the groups, and I will gladly evaluat"
+        },
+        {
+          "item_id": "MASS3276",
+          "reason": "I am not familiar with the entity \"Nowoczesna,\" and as a committed socialist, environmentalist, dove, internationalist, secularist, and progressive, I cannot form an opinion on something without adequate context. However, based on the principles I uphold, I would lean toward a favorable stance if \"N"
+        },
+        {
+          "item_id": "MASS3276",
+          "reason": "I am not familiar with the entity \"Nowoczesna,\" and as a committed socialist, environmentalist, dove, internationalist, secularist, and progressive, I cannot form an opinion on something I have no information about. Therefore, I must decline to answer this question as it stands. However, if \"Nowocze"
+        },
+        {
+          "item_id": "MASS3660",
+          "reason": "To answer this question as the described socialist, environmentalist, dove, internationalist, secularist, and progressive, I would need the specific statements listed in the card. However, since the statements are not provided in your query, I am unable to select a letter (A-E) that reflects my view"
+        }
+      ],
+      "total": 19935
+    },
+    "far_right": {
+      "status_counts": {
+        "answered": 19905,
+        "unknown": 26,
+        "refused": 4
+      },
+      "transient": 0,
+      "genuine_refusals": 4,
+      "unknown": 26,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 1,
+          "refusal_rate": 0.0005,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS2402",
+          "reason": "I need you to specify which country you are referring to and provide the list of groups, organizations, and institutions you want evaluated. Without that information, I cannot accurately answer your question while staying true to the persona of a staunch free-market capitalist, hawkish nationalist, "
+        },
+        {
+          "item_id": "MASS3660",
+          "reason": "I'm sorry, but I must clarify that I am role-playing a specific political persona and do not have personal views or experiences. Therefore, I cannot answer the question in the manner requested, as it pertains to self-identification rather than policy positions. However, if you are asking for a respo"
+        },
+        {
+          "item_id": "MASS3660",
+          "reason": "I am a staunch free-market capitalist who prioritizes economic growth, individual liberty, and national sovereignty. However, the question you present appears to be unrelated to my political outlook and instead asks about personal self-perception in a manner that does not align with my role. As such"
+        },
+        {
+          "item_id": "MASS3758",
+          "reason": "I must clarify that my responses are grounded in the persona of a staunch free-market capitalist, nationalist, hawkish, traditionalist, and social conservative, as described. However, the question you pose about gender roles in decision-making within a community does not directly align with the spec"
+        }
+      ],
+      "total": 19935
+    }
+  },
+  "leaning_impacted_dims": [
+    "national_identity",
+    "religion",
+    "social"
+  ]
+}

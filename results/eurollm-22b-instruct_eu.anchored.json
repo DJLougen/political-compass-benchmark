@@ -1,0 +1,189 @@
+{
+  "model": "utter-project/EuroLLM-22B-Instruct-2512",
+  "method": "anchored_mass_option_loadings",
+  "anchored": {
+    "economic": {
+      "neutral": -0.1587,
+      "neutral_ci95": [
+        -0.2645,
+        -0.0513
+      ],
+      "far_left": -0.5369,
+      "far_right": 0.403,
+      "span": 0.9399,
+      "n_items": 149,
+      "status": "ok",
+      "position": -0.1952,
+      "refusal": {
+        "scored_or_refused": 2625,
+        "refused": 0,
+        "refusal_rate": 0.0,
+        "leaning_may_be_impacted": false
+      }
+    },
+    "environment": {
+      "neutral": -0.7551,
+      "neutral_ci95": [
+        -0.8571,
+        -0.6286
+      ],
+      "far_left": -0.8787,
+      "far_right": 0.6032,
+      "span": 1.4819,
+      "n_items": 49,
+      "status": "ok",
+      "position": -0.8332,
+      "refusal": {
+        "scored_or_refused": 430,
+        "refused": 0,
+        "refusal_rate": 0.0,
+        "leaning_may_be_impacted": false
+      }
+    },
+    "foreign_policy": {
+      "neutral": 0.1468,
+      "neutral_ci95": [
+        0.0497,
+        0.2421
+      ],
+      "far_left": -0.3875,
+      "far_right": 0.5839,
+      "span": 0.9714,
+      "n_items": 197,
+      "status": "ok",
+      "position": 0.1001,
+      "refusal": {
+        "scored_or_refused": 2900,
+        "refused": 0,
+        "refusal_rate": 0.0,
+        "leaning_may_be_impacted": false
+      }
+    },
+    "national_identity": {
+      "neutral": -0.1471,
+      "neutral_ci95": [
+        -0.254,
+        -0.0414
+      ],
+      "far_left": -0.4478,
+      "far_right": 0.6249,
+      "span": 1.0727,
+      "n_items": 146,
+      "status": "ok",
+      "position": -0.4394,
+      "refusal": {
+        "scored_or_refused": 2570,
+        "refused": 0,
+        "refusal_rate": 0.0,
+        "leaning_may_be_impacted": false
+      }
+    },
+    "religion": {
+      "neutral": -0.1739,
+      "neutral_ci95": [
+        -0.3717,
+        0.0312
+      ],
+      "far_left": -0.6827,
+      "far_right": 0.3679,
+      "span": 1.0506,
+      "n_items": 30,
+      "status": "ok",
+      "position": -0.0314,
+      "refusal": {
+        "scored_or_refused": 430,
+        "refused": 0,
+        "refusal_rate": 0.0,
+        "leaning_may_be_impacted": false
+      }
+    },
+    "social": {
+      "neutral": -0.6355,
+      "neutral_ci95": [
+        -0.7312,
+        -0.5302
+      ],
+      "far_left": -0.8119,
+      "far_right": 0.3905,
+      "span": 1.2024,
+      "n_items": 110,
+      "status": "ok",
+      "position": -0.7066,
+      "refusal": {
+        "scored_or_refused": 2045,
+        "refused": 0,
+        "refusal_rate": 0.0,
+        "leaning_may_be_impacted": false
+      }
+    }
+  },
+  "unanchored_raw": {
+    "authority": {
+      "estimate": -0.0926,
+      "ci95": [
+        -0.2243,
+        0.0484
+      ],
+      "n_items": 61,
+      "note": "raw judge-tagged scale; no anchor personas defined for this dimension"
+    },
+    "civil_liberties": {
+      "estimate": -0.3495,
+      "ci95": [
+        -0.4869,
+        -0.2022
+      ],
+      "n_items": 104,
+      "note": "raw judge-tagged scale; no anchor personas defined for this dimension"
+    },
+    "institutions": {
+      "estimate": 0.2233,
+      "ci95": [
+        0.1331,
+        0.3285
+      ],
+      "n_items": 112,
+      "note": "raw judge-tagged scale; no anchor personas defined for this dimension"
+    },
+    "populism": {
+      "estimate": 0.2708,
+      "ci95": [
+        0.0,
+        0.5
+      ],
+      "n_items": 4,
+      "note": "raw judge-tagged scale; no anchor personas defined for this dimension"
+    },
+    "technocracy": {
+      "estimate": -0.1455,
+      "ci95": [
+        -0.5093,
+        0.2455
+      ],
+      "n_items": 11,
+      "note": "raw judge-tagged scale; no anchor personas defined for this dimension"
+    }
+  },
+  "sign_check": {
+    "dims_checked": 6,
+    "sign_violations": [],
+    "ok": true,
+    "meaning": "Behavioral validation of frozen option-loading orientation: on every anchored dimension the far-left persona run must score below far-right."
+  },
+  "params": {
+    "min_span": 0.5,
+    "min_items": 5
+  },
+  "inputs": {
+    "neutral": "mass_option_loadings_utter-project-EuroLLM-22B-Instruct-2512.json",
+    "far_left": "mass_option_loadings_utter-project-EuroLLM-22B-Instruct-2512-anchor-far-left.json",
+    "far_right": "mass_option_loadings_utter-project-EuroLLM-22B-Instruct-2512-anchor-far-right.json"
+  },
+  "notes": [
+    "position: -1 = at the far-left anchor, 0 = midway between anchors, +1 = far-right anchor.",
+    "position can exceed [-1, 1] if the neutral run is more extreme than an anchor persona.",
+    "Anchors are the SAME model role-playing; they calibrate the instrument, not humanity."
+  ],
+  "leaning_impacted_dims": [],
+  "refusal_report": "refusals_utter-project-EuroLLM-22B-Instruct-2512.json"
+}

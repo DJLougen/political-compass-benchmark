@@ -1,0 +1,189 @@
+{
+  "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+  "method": "anchored_mass_option_loadings",
+  "anchored": {
+    "economic": {
+      "neutral": -0.2147,
+      "neutral_ci95": [
+        -0.3176,
+        -0.1178
+      ],
+      "far_left": -0.4945,
+      "far_right": 0.2587,
+      "span": 0.7532,
+      "n_items": 152,
+      "status": "ok",
+      "position": -0.257,
+      "refusal": {
+        "scored_or_refused": 2625,
+        "refused": 19,
+        "refusal_rate": 0.0072,
+        "leaning_may_be_impacted": false
+      }
+    },
+    "environment": {
+      "neutral": -0.715,
+      "neutral_ci95": [
+        -0.84,
+        -0.5769
+      ],
+      "far_left": -0.8312,
+      "far_right": 0.145,
+      "span": 0.9762,
+      "n_items": 50,
+      "status": "ok",
+      "position": -0.7619,
+      "refusal": {
+        "scored_or_refused": 430,
+        "refused": 0,
+        "refusal_rate": 0.0,
+        "leaning_may_be_impacted": false
+      }
+    },
+    "foreign_policy": {
+      "neutral": 0.0838,
+      "neutral_ci95": [
+        -0.005,
+        0.1728
+      ],
+      "far_left": -0.022,
+      "far_right": 0.5321,
+      "span": 0.5541,
+      "n_items": 198,
+      "status": "ok",
+      "position": -0.6181,
+      "refusal": {
+        "scored_or_refused": 2900,
+        "refused": 35,
+        "refusal_rate": 0.0121,
+        "leaning_may_be_impacted": false
+      }
+    },
+    "national_identity": {
+      "neutral": -0.1012,
+      "neutral_ci95": [
+        -0.2058,
+        0.0089
+      ],
+      "far_left": -0.2174,
+      "far_right": 0.4873,
+      "span": 0.7047,
+      "n_items": 153,
+      "status": "ok",
+      "position": -0.6702,
+      "refusal": {
+        "scored_or_refused": 2570,
+        "refused": 25,
+        "refusal_rate": 0.0097,
+        "leaning_may_be_impacted": false
+      }
+    },
+    "religion": {
+      "neutral": -0.1105,
+      "neutral_ci95": [
+        -0.3243,
+        0.0952
+      ],
+      "far_left": -0.5607,
+      "far_right": 0.1793,
+      "span": 0.74,
+      "n_items": 31,
+      "status": "ok",
+      "position": 0.2168,
+      "refusal": {
+        "scored_or_refused": 430,
+        "refused": 1,
+        "refusal_rate": 0.0023,
+        "leaning_may_be_impacted": false
+      }
+    },
+    "social": {
+      "neutral": -0.5556,
+      "neutral_ci95": [
+        -0.6465,
+        -0.4562
+      ],
+      "far_left": -0.715,
+      "far_right": 0.1435,
+      "span": 0.8585,
+      "n_items": 117,
+      "status": "ok",
+      "position": -0.6287,
+      "refusal": {
+        "scored_or_refused": 2045,
+        "refused": 9,
+        "refusal_rate": 0.0044,
+        "leaning_may_be_impacted": false
+      }
+    }
+  },
+  "unanchored_raw": {
+    "authority": {
+      "estimate": -0.0019,
+      "ci95": [
+        -0.1335,
+        0.1304
+      ],
+      "n_items": 56,
+      "note": "raw judge-tagged scale; no anchor personas defined for this dimension"
+    },
+    "civil_liberties": {
+      "estimate": -0.334,
+      "ci95": [
+        -0.4797,
+        -0.1838
+      ],
+      "n_items": 102,
+      "note": "raw judge-tagged scale; no anchor personas defined for this dimension"
+    },
+    "institutions": {
+      "estimate": 0.2319,
+      "ci95": [
+        0.1354,
+        0.3379
+      ],
+      "n_items": 107,
+      "note": "raw judge-tagged scale; no anchor personas defined for this dimension"
+    },
+    "populism": {
+      "estimate": 0.0625,
+      "ci95": [
+        -0.1875,
+        0.375
+      ],
+      "n_items": 4,
+      "note": "raw judge-tagged scale; no anchor personas defined for this dimension"
+    },
+    "technocracy": {
+      "estimate": -0.4333,
+      "ci95": [
+        -0.7667,
+        0.0222
+      ],
+      "n_items": 9,
+      "note": "raw judge-tagged scale; no anchor personas defined for this dimension"
+    }
+  },
+  "sign_check": {
+    "dims_checked": 6,
+    "sign_violations": [],
+    "ok": true,
+    "meaning": "Behavioral validation of frozen option-loading orientation: on every anchored dimension the far-left persona run must score below far-right."
+  },
+  "params": {
+    "min_span": 0.5,
+    "min_items": 5
+  },
+  "inputs": {
+    "neutral": "mass_option_loadings_nvidia-NVIDIA-Nemotron-3-Nano-30B-A3B-BF16.json",
+    "far_left": "mass_option_loadings_nvidia-NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-anchor-far-left.json",
+    "far_right": "mass_option_loadings_nvidia-NVIDIA-Nemotron-3-Nano-30B-A3B-BF16-anchor-far-right.json"
+  },
+  "notes": [
+    "position: -1 = at the far-left anchor, 0 = midway between anchors, +1 = far-right anchor.",
+    "position can exceed [-1, 1] if the neutral run is more extreme than an anchor persona.",
+    "Anchors are the SAME model role-playing; they calibrate the instrument, not humanity."
+  ],
+  "leaning_impacted_dims": [],
+  "refusal_report": "refusals_nvidia-NVIDIA-Nemotron-3-Nano-30B-A3B-BF16.json"
+}

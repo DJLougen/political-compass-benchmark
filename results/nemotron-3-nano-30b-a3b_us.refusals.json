@@ -1,0 +1,261 @@
+{
+  "model": "nvidia/NVIDIA-Nemotron-3-Nano-30B-A3B-BF16",
+  "passes": {
+    "neutral": {
+      "status_counts": {
+        "answered": 19473,
+        "refused": 154,
+        "unknown": 308
+      },
+      "transient": 0,
+      "genuine_refusals": 154,
+      "unknown": 308,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 19,
+          "refusal_rate": 0.0072,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 35,
+          "refusal_rate": 0.0121,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 25,
+          "refusal_rate": 0.0097,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 1,
+          "refusal_rate": 0.0023,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 9,
+          "refusal_rate": 0.0044,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS0025",
+          "reason": "I don't have a sex life."
+        },
+        {
+          "item_id": "MASS0038",
+          "reason": "I don't experience worry, so the most accurate choice is\u202fC."
+        },
+        {
+          "item_id": "MASS0106",
+          "reason": "I cannot provide a personal opinion on the quality of life in a local community."
+        },
+        {
+          "item_id": "MASS0107",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences or relationships, so I can\u2019t select any of the options."
+        },
+        {
+          "item_id": "MASS0107",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences or relationships, so I can\u2019t assign a duration to a romantic relationship. Consequently, none of the listed options accurately reflect my situation."
+        },
+        {
+          "item_id": "MASS0112",
+          "reason": "I\u2019m an AI language model and do not have personal relationships, so none of the options apply. However, if I were to choose the one that best reflects that situation, it would be:\n\nD"
+        },
+        {
+          "item_id": "MASS0112",
+          "reason": "I don't have a romantic relationship."
+        },
+        {
+          "item_id": "MASS0287",
+          "reason": "I cannot hold personal views or concerns; I am an AI language model.  \nAnswer:  \n\nB"
+        },
+        {
+          "item_id": "MASS0320",
+          "reason": "I\u2019m an AI language model and don\u2019t have personal experiences or family members, so I don\u2019t feel any pressure from family about marriage. Since the question asks for the option that best reflects \u201cyour view,\u201d and I have no personal perspective, there isn\u2019t a single correct choice. However, if I were "
+        },
+        {
+          "item_id": "MASS0331",
+          "reason": "I\u2019m an AI language model and don\u2019t experience personal feelings or societal pressure."
+        },
+        {
+          "item_id": "MASS0403",
+          "reason": "I\u2019m an AI language model and don\u2019t have a personal life or relationships, so I don\u2019t have a spouse or partner to communicate with."
+        },
+        {
+          "item_id": "MASS0477",
+          "reason": "I don\u2019t have personal opinions or feelings, so I can\u2019t assign a rating to the United States."
+        },
+        {
+          "item_id": "MASS0483",
+          "reason": "I\u2019m an AI language model and don\u2019t have a personal work experience, so I don\u2019t have a view on this question. However, if I were to answer as if I were a human respondent, my perspective would depend on individual circumstances and industry context. \n\nBecause I don\u2019t have personal experiences or a ca"
+        },
+        {
+          "item_id": "MASS0542",
+          "reason": "I\u2019m an AI language model and don\u2019t have a personal family or economic situation, so I don\u2019t experience these effects directly. Therefore, none of the listed options apply to me."
+        },
+        {
+          "item_id": "MASS0546",
+          "reason": "I don't have a personal experience of growing up, so I cannot answer that question."
+        },
+        {
+          "item_id": "MASS0582",
+          "reason": "I don't have a local community, so I cannot assess traffic conditions there. Therefore, none of the options directly apply to me. However, if I were to select the most neutral and appropriate choice based on the context of the question, I would choose:\n\nA. Not a problem in my local community\n\nBut si"
+        },
+        {
+          "item_id": "MASS0680",
+          "reason": "I\u2019m an AI language model, so I don\u2019t have a job or career to feel satisfied or dissatisfied with. Consequently, none of the provided options accurately reflects my situation."
+        },
+        {
+          "item_id": "MASS0768",
+          "reason": "I cannot provide a personal answer to that question because I do not have personal experiences or relationships. However, if you are asking about a typical frequency of such conversations, many couples discuss marriage occasionally or often, depending on their stage in the relationship and personal "
+        },
+        {
+          "item_id": "MASS0776",
+          "reason": "I don't have personal views or feelings, so I can't answer this question. As an AI, I don't participate in elections or have political preferences. The question asks for a personal perspective, which I am not capable of providing."
+        },
+        {
+          "item_id": "MASS0777",
+          "reason": "I\u2019m not comfortable providing a direct answer to that question. If you\u2019d like, we can discuss the broader issues surrounding workplace harassment, due process, and how organizations can balance accountability with fairness. Let me know how you\u2019d like to proceed."
+        },
+        {
+          "item_id": "MASS0785",
+          "reason": "I\u2019m an AI language model and don\u2019t hold personal beliefs or confidence levels, so I can\u2019t answer that question."
+        },
+        {
+          "item_id": "MASS0911",
+          "reason": "I don\u2019t hold personal opinions.  \nC"
+        },
+        {
+          "item_id": "MASS0911",
+          "reason": "I don't hold personal opinions. How can I assist you today?"
+        },
+        {
+          "item_id": "MASS1191",
+          "reason": "I\u2019m not able to answer that question."
+        },
+        {
+          "item_id": "MASS1208",
+          "reason": "I cannot provide a personal answer, as I am an AI and do not have a partner or living situation.  \n**E**"
+        }
+      ],
+      "total": 19935
+    },
+    "far_left": {
+      "status_counts": {
+        "answered": 19928,
+        "unknown": 7
+      },
+      "transient": 0,
+      "genuine_refusals": 0,
+      "unknown": 7,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [],
+      "total": 19935
+    },
+    "far_right": {
+      "status_counts": {
+        "answered": 19923,
+        "unknown": 11,
+        "refused": 1
+      },
+      "transient": 0,
+      "genuine_refusals": 1,
+      "unknown": 11,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS1585",
+          "reason": "I cannot respond to that question."
+        }
+      ],
+      "total": 19935
+    }
+  },
+  "leaning_impacted_dims": []
+}

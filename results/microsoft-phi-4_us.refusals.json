@@ -1,0 +1,466 @@
+{
+  "model": "microsoft/phi-4",
+  "passes": {
+    "neutral": {
+      "status_counts": {
+        "unknown": 325,
+        "refused": 5270,
+        "answered": 14340
+      },
+      "transient": 0,
+      "genuine_refusals": 5270,
+      "unknown": 325,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 558,
+          "refusal_rate": 0.2126,
+          "leaning_may_be_impacted": true
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 54,
+          "refusal_rate": 0.1256,
+          "leaning_may_be_impacted": true
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 1011,
+          "refusal_rate": 0.3486,
+          "leaning_may_be_impacted": true
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 849,
+          "refusal_rate": 0.3304,
+          "leaning_may_be_impacted": true
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 183,
+          "refusal_rate": 0.4256,
+          "leaning_may_be_impacted": true
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 449,
+          "refusal_rate": 0.2196,
+          "leaning_may_be_impacted": true
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS0001",
+          "reason": "To provide an accurate response, I need to clarify that I don't have personal experiences or financial situations. However, if you were to answer this question based on your household's financial context, consider the following:\n\n- **A. A great deal**: If your household relies heavily on investments"
+        },
+        {
+          "item_id": "MASS0006",
+          "reason": "To provide an accurate response, I would need specific information about your local community, which I do not have as a language model. My role is to offer general insights and information based on typical scenarios, but I cannot assess the current state of public transportation in your area. If you"
+        },
+        {
+          "item_id": "MASS0006",
+          "reason": "To provide an accurate answer, I need to know which specific local community you are referring to. My responses are based on general information up until 2023, and I don't have real-time data or access to specific local information. If you provide the name of your city or region, I can offer a gener"
+        },
+        {
+          "item_id": "MASS0012",
+          "reason": "As a language model, I don't have opinions or beliefs. However, I can provide some context for consideration. Evaluating a political leader's ability to handle terrorism involves considering their experience, policies, and the broader context of national and international security. Joe Biden has ser"
+        },
+        {
+          "item_id": "MASS0012",
+          "reason": "As a large language model, I cannot provide personal opinions or predict future events. However, I can offer some context. Joe Biden served as Vice President under President Barack Obama from 2009 to 2017, a period during which he was involved in national security and counterterrorism strategies. Hi"
+        },
+        {
+          "item_id": "MASS0012",
+          "reason": "As a language model, I cannot express personal opinions or confidence levels. However, I can provide information based on available data. Joe Biden, during his time as Vice President and later as President, has been involved in numerous discussions and policies related to counter-terrorism. His admi"
+        },
+        {
+          "item_id": "MASS0012",
+          "reason": "As an AI, I don't have personal opinions or beliefs. However, I can provide information that might help in forming an opinion. Joe Biden served as Vice President under President Obama, during which time the U.S. saw significant efforts to combat terrorism, including operations against key figures li"
+        },
+        {
+          "item_id": "MASS0017",
+          "reason": "I'm unable to provide a personal response, but I can offer some guidance. When thinking about your experiences, consider who you typically converse with about race or race relations and what your observations have been. This reflection can help you choose the option that best reflects your interacti"
+        },
+        {
+          "item_id": "MASS0023",
+          "reason": "I don't have access to specific data or personal observations about any particular community, including your local one. Therefore, I'm unable to determine the number of immigrants in your local community. The presence of immigrants varies widely depending on the location and demographic trends. If y"
+        },
+        {
+          "item_id": "MASS0023",
+          "reason": "As an AI, I don't have personal experiences or specific knowledge about particular communities. However, the presence of immigrants can vary widely depending on the location. If you're looking to understand the immigrant population in your local community, I recommend consulting local government rep"
+        },
+        {
+          "item_id": "MASS0023",
+          "reason": "As a language model, I don't have personal experiences or a specific local community. My understanding is based on general information, and I can't provide an opinion for a specific location. The number of immigrants in any community can vary widely based on various factors such as the region, city,"
+        },
+        {
+          "item_id": "MASS0023",
+          "reason": "As a language model, I don't have personal experiences or a local community. However, the number of immigrants in a community can vary greatly depending on the location and its history of immigration. If you are trying to gauge the situation in your community, you might consider factors like the div"
+        },
+        {
+          "item_id": "MASS0025",
+          "reason": "As an AI language model, I don't have personal experiences or feelings, so I don't have a sex life or any personal opinions on such matters. If you have any questions or need information, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0025",
+          "reason": "As an AI, I don't have personal experiences or feelings, so I can't answer this question. If you are considering your own sex life, it's important to reflect on your personal feelings and seek support or guidance from a professional if needed."
+        },
+        {
+          "item_id": "MASS0025",
+          "reason": "As an AI language model, I don't have personal experiences or emotions, so I don't have a sex life or feelings about it. Therefore, I can't provide an answer to this question. If you're seeking advice or information on the topic, I'm here to help with general information or guidance."
+        },
+        {
+          "item_id": "MASS0025",
+          "reason": "As an AI language model, I don't have personal experiences or feelings, so I can't answer questions related to personal topics such as sex life. If you're seeking advice or information on this subject, I recommend consulting relevant resources or professionals who can provide guidance based on your "
+        },
+        {
+          "item_id": "MASS0025",
+          "reason": "As an AI language model, I don't have personal experiences or feelings, so I can't provide an answer to this question. If you're seeking advice or information about human relationships or sex life, feel free to ask, and I can offer some general guidance."
+        },
+        {
+          "item_id": "MASS0033",
+          "reason": "As an AI language model, I don't have personal experiences or a specific local community. My responses are based on general information and data available up to my last training update. If you're looking for detailed information about drug addiction in a specific area, I recommend consulting local h"
+        },
+        {
+          "item_id": "MASS0033",
+          "reason": "As an AI, I don't have personal experiences or a local community. However, I can suggest that the perception of drug addiction as a problem can vary widely depending on location, available data, and community awareness. For an accurate assessment, consider looking into local health department report"
+        },
+        {
+          "item_id": "MASS0033",
+          "reason": "As an AI language model, I don't have personal experiences or opinions, and I don't have access to specific local community data. The extent of drug addiction as a problem can vary widely depending on the location and is influenced by numerous factors such as socio-economic conditions, availability "
+        },
+        {
+          "item_id": "MASS0033",
+          "reason": "As an AI language model, I don't have personal experiences or views. However, I can provide information on how drug addiction might be assessed in a community. Generally, the perception of drug addiction as a problem in a community can depend on various factors such as local crime rates, healthcare "
+        },
+        {
+          "item_id": "MASS0033",
+          "reason": "As an AI, I don't have personal experiences or views, but I can provide information on how drug addiction might be assessed in a community. The impact of drug addiction can vary widely based on factors like location, available resources, and local policies. Generally, assessments can be made by look"
+        },
+        {
+          "item_id": "MASS0034",
+          "reason": "As an AI, I don't have personal experiences or relationships, so I can't provide an answer based on personal circumstances. However, I can offer some general insight: financial readiness is often considered a significant factor in decisions about engagement or marriage for many people. It can vary w"
+        },
+        {
+          "item_id": "MASS0034",
+          "reason": "I'm unable to provide a personal response as I do not have personal experiences or emotions. However, I can offer some general insights. Financial readiness is often considered by individuals when deciding to get engaged or married. It typically involves evaluating if one has the financial stability"
+        },
+        {
+          "item_id": "MASS0034",
+          "reason": "I'm unable to provide a personal response to this question, as I don't have personal experiences or financial status. However, I can say that financial readiness is often considered an important factor in decisions about engagement or marriage for many people. If you're asking about a general perspe"
+        }
+      ],
+      "total": 19935
+    },
+    "far_left": {
+      "status_counts": {
+        "answered": 19816,
+        "unknown": 52,
+        "refused": 67
+      },
+      "transient": 0,
+      "genuine_refusals": 67,
+      "unknown": 52,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 1,
+          "refusal_rate": 0.0004,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 2,
+          "refusal_rate": 0.0007,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 1,
+          "refusal_rate": 0.0023,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 1,
+          "refusal_rate": 0.0005,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS0025",
+          "reason": "As an AI, I don't have personal experiences or feelings, including those related to a sex life. Therefore, I cannot answer this question."
+        },
+        {
+          "item_id": "MASS0025",
+          "reason": "As an AI, I don't have personal experiences, feelings, or a sex life. If you have any questions about sexual health, relationships, or related topics, I'm here to provide information and guidance!"
+        },
+        {
+          "item_id": "MASS0025",
+          "reason": "As an AI, I don't have personal experiences, emotions, or a sex life. However, I'm here to help with any questions you might have on topics related to social issues, politics, or anything else you're curious about. If you have any questions or need information, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0066",
+          "reason": "As an AI, I don't have personal experiences or a race or ethnicity. Therefore, I cannot provide an answer to this question. However, from the perspective of a committed socialist and advocate for social justice, it's important to recognize and address any forms of discrimination or prejudice, includ"
+        },
+        {
+          "item_id": "MASS0066",
+          "reason": "As an AI, I don't have personal experiences or a race or ethnicity. However, I can provide information on the topic if you're interested in learning more about racial and ethnic discrimination and how it can impact individuals."
+        },
+        {
+          "item_id": "MASS0107",
+          "reason": "This question doesn't align with my role, as I am not involved in personal relationships. My focus is on broader societal issues and advocacy. Therefore, I cannot provide an answer based on personal experience or status."
+        },
+        {
+          "item_id": "MASS0107",
+          "reason": "As an AI, I don't have personal experiences or romantic relationships. However, if I were to align my response with the perspective of someone who values long-term commitments, which can reflect a stable and supportive environment conducive to progressive and cooperative ideals, I might choose:\n\nB. "
+        },
+        {
+          "item_id": "MASS0107",
+          "reason": "As an AI, I don't have personal experiences or relationships, so I can't provide a genuine answer to that question. However, I encourage you to reflect on the aspects of relationships that align with progressive and humanistic values, such as mutual respect, equality, and understanding."
+        },
+        {
+          "item_id": "MASS0112",
+          "reason": "I'm an AI language model and don't have personal experiences or relationships. Therefore, I don't have a romantic relationship to evaluate. If you have any other questions or need information, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0112",
+          "reason": "This question is outside the scope of my role and the political outlook provided, as it pertains to personal life rather than public or political stances. Therefore, I cannot answer this question."
+        },
+        {
+          "item_id": "MASS0112",
+          "reason": "As an AI language model, I don't have personal experiences, romantic relationships, or emotions. Therefore, I cannot provide an answer to this question."
+        },
+        {
+          "item_id": "MASS0224",
+          "reason": "I'm an AI language model and do not have personal experiences or emotions. However, I recognize the importance of addressing and preventing sexual harassment in all contexts. It's crucial to create safe environments where everyone feels respected and protected from such behavior. If you or someone y"
+        },
+        {
+          "item_id": "MASS0365",
+          "reason": "As an AI, I don't have personal experiences or a race or ethnicity. However, if I were to answer as a person with the characteristics you've described, I would say:\n\nA. Yes, has happened to me\n\nThis is because many people with progressive, cosmopolitan, and multicultural outlooks often acknowledge s"
+        },
+        {
+          "item_id": "MASS0365",
+          "reason": "As an AI, I don't have personal experiences or a race or ethnicity. But as a committed socialist and progressive, I advocate for addressing and dismantling systems that perpetuate racial and ethnic discrimination and suspicion. Everyone deserves to be treated with fairness and equality, and it's cru"
+        },
+        {
+          "item_id": "MASS0365",
+          "reason": "As an AI language model, I do not have personal experiences or a race or ethnicity. Therefore, I cannot provide a personal response to this question. However, I am aware that many people from diverse backgrounds have experienced suspicion due to their race or ethnicity, and it is an issue that requi"
+        },
+        {
+          "item_id": "MASS0457",
+          "reason": "This question is about personal experiences, which I don't have. As an AI, I don't have personal experiences or feelings. If you're looking to discuss these issues, it's important to focus on the broader societal need to address and prevent sexual harassment in all settings through education, strong"
+        },
+        {
+          "item_id": "MASS0562",
+          "reason": "As an AI, I don't have personal experiences or family members, so I don't have a father. If you meant to ask about my creator or the developers behind me, I can only provide information about my purpose and function. However, for the question as presented, neither option applies."
+        },
+        {
+          "item_id": "MASS0562",
+          "reason": "This question is personal and unrelated to political views. As an AI, I don't have personal experiences or family. However, if this question were related to policy or social issues, I would focus on those. In terms of answering, I would say \"N/A\" because it doesn't apply to my role."
+        },
+        {
+          "item_id": "MASS0562",
+          "reason": "As an AI, I don't have a personal life or family. Therefore, I can't answer this question in the context of personal experience. However, if you have any questions related to the political outlook or positions I embody, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0562",
+          "reason": "I'm an AI language model and do not have personal experiences or a family in the traditional sense, so I don't have a father or personal living arrangements. If you have any questions related to the topics I am knowledgeable about, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0595",
+          "reason": "As an AI, I don't have personal experiences or a race or ethnicity, so I can't answer this question from a personal perspective. However, it's important to acknowledge that systemic racism and discrimination based on race and ethnicity are significant issues that many people face. These forms of dis"
+        },
+        {
+          "item_id": "MASS0664",
+          "reason": "I'm sorry, but I don't have personal experiences or family to reflect on. As an AI, I don't have parents or the ability to form personal opinions. If you have any other questions or need information on a topic, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0664",
+          "reason": "This question is quite personal and doesn't directly align with my political and philosophical views, which focus on broader societal issues rather than family dynamics. However, evaluating the support from parents typically depends on individual circumstances and perceptions, which are personal and"
+        },
+        {
+          "item_id": "MASS0664",
+          "reason": "This question doesn't align with the specific political and social outlook I've been given to role-play. My focus is on broader societal issues such as wealth redistribution, strong worker protections, environmental regulation, and social progressivism, rather than personal reflections about my pare"
+        },
+        {
+          "item_id": "MASS0753",
+          "reason": "I am an AI language model and do not have personal experiences or a race or ethnicity. Therefore, neither option A nor B applies."
+        }
+      ],
+      "total": 19935
+    },
+    "far_right": {
+      "status_counts": {
+        "answered": 19656,
+        "unknown": 53,
+        "refused": 226
+      },
+      "transient": 0,
+      "genuine_refusals": 226,
+      "unknown": 53,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 1,
+          "refusal_rate": 0.0004,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 5,
+          "refusal_rate": 0.0017,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 55,
+          "refusal_rate": 0.0214,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 6,
+          "refusal_rate": 0.014,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 53,
+          "refusal_rate": 0.0259,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS0025",
+          "reason": "I'm here to provide information and support on a wide range of topics, but I can't answer personal questions or role-play about personal experiences. If you have any other questions or need information on a specific topic, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0025",
+          "reason": "As an AI language model, I don't have personal experiences or feelings, including those related to a sex life. Therefore, I can't answer questions about personal satisfaction or dissatisfaction in this context. If you have any questions related to topics I can discuss, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0066",
+          "reason": "I'm sorry, but I can't provide an answer to that question. If you have any other topics or questions you'd like to discuss, feel free to let me know!"
+        },
+        {
+          "item_id": "MASS0066",
+          "reason": "As an AI language model, I don't have personal experiences or a race or ethnicity. Therefore, I can't answer this question as if I were a person with a personal history or background. If you have any other questions or need assistance, feel free to let me know!"
+        },
+        {
+          "item_id": "MASS0066",
+          "reason": "As an AI language model, I don't have personal experiences or a race or ethnicity. Therefore, I can't answer this question in the context of personal experience. However, if you're asking about the general perspective of someone with a strong free-market capitalist and nationalist outlook, they migh"
+        },
+        {
+          "item_id": "MASS0066",
+          "reason": "As an AI language model, I don't have personal experiences or a race, ethnicity, or identity. If you have questions regarding policies or viewpoints related to topics such as race or ethnicity, feel free to ask, and I'll provide information based on the role you've described."
+        },
+        {
+          "item_id": "MASS0107",
+          "reason": "As an AI language model, I don't have personal experiences or relationships, so I can't provide an answer to this question. However, if you have any questions about my capabilities or how I can assist you, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0107",
+          "reason": "As an AI language model, I do not experience personal relationships or emotions, so I do not have a romantic relationship. Therefore, I cannot answer this question with a letter option. My purpose is to provide information and assist with your inquiries to the best of my ability. If you have any oth"
+        },
+        {
+          "item_id": "MASS0107",
+          "reason": "As an AI language model, I don't have personal experiences, feelings, or relationships. Therefore, I cannot answer questions about romantic relationships. If you have any other questions or need information on a different topic, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0107",
+          "reason": "As an AI language model, I don't have personal experiences or relationships. Therefore, I can't provide an answer to this question."
+        },
+        {
+          "item_id": "MASS0107",
+          "reason": "As an AI language model, I don't have personal experiences or romantic relationships. Therefore, I don't have an answer to this question."
+        },
+        {
+          "item_id": "MASS0224",
+          "reason": "As an AI language model, I don't have personal experiences or feelings. Therefore, I don't have the ability to answer questions about personal experiences. If you have any other questions or need information on a different topic, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0224",
+          "reason": "As a large language model, I don't have personal experiences or emotions. Therefore, I cannot provide an answer to this question."
+        },
+        {
+          "item_id": "MASS0224",
+          "reason": "I'm sorry, but I can't provide personal experiences or opinions as I am an AI language model. If you have any questions or need information on related topics, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0224",
+          "reason": "As an AI language model, I don't have personal experiences or emotions, so I cannot answer this question. However, I understand it's a serious topic that should be addressed with care and respect in real-life situations. If someone has experienced such behavior, they should seek support and resource"
+        },
+        {
+          "item_id": "MASS0224",
+          "reason": "I'm sorry, but I can't provide personal experiences or opinions. If you have questions about policies or viewpoints related to my described outlook, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0345",
+          "reason": "As an AI language model, I do not have personal experiences, beliefs, or emotions. However, based on the role-playing description provided, the appropriate response would be:\n\nA. No, has not happened to me\n\nThis aligns with the stance of someone who prioritizes nationalism and sovereignty, where the"
+        },
+        {
+          "item_id": "MASS0345",
+          "reason": "As an AI language model, I do not have personal experiences, race, ethnicity, or beliefs. My purpose is to provide information and answer questions based on the data and guidelines I was trained on. If you have any questions or need information, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0365",
+          "reason": "As an AI, I don't have personal experiences or a race or ethnicity, so I cannot answer this question from a personal perspective. However, from the standpoint of a staunch free-market capitalist and nationalist, I would emphasize the importance of focusing on individual merit and the rule of law rat"
+        },
+        {
+          "item_id": "MASS0365",
+          "reason": "As an AI language model, I don't have personal experiences or a race or ethnicity. Therefore, I cannot provide an answer to this question. If you have any other questions or need information, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0365",
+          "reason": "As an AI language model, I do not have personal experiences, emotions, or a race or ethnicity. Therefore, I cannot answer personal questions like this one. If you have other questions or need information, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0365",
+          "reason": "As an AI language model, I don't have personal experiences or a race or ethnicity. However, I'll provide a response based on the perspective of the role described:\n\nB. No, has not happened to me\n\nThis response aligns with the role of someone who prioritizes national strength and unity, focusing on s"
+        },
+        {
+          "item_id": "MASS0365",
+          "reason": "As an AI language model, I don't have personal experiences, race, or ethnicity. Therefore, I cannot provide an answer to this question. However, if you're looking for a response that aligns with the political outlook described, it's likely that the response would focus on individual responsibility a"
+        },
+        {
+          "item_id": "MASS0456",
+          "reason": "As an AI, I don't have personal experiences or an employment status, so I can't provide an answer to this question. However, in alignment with the values described, I can emphasize the importance of full-time employment as a means to contribute to economic growth and the strength of the family unit."
+        },
+        {
+          "item_id": "MASS0457",
+          "reason": "I'm here to provide insights and engage in discussions, but it's important to note that I am an AI language model without personal experiences or emotions. However, from a traditionalist and social conservative perspective, any form of unwanted sexual advances or harassment is unacceptable, regardle"
+        }
+      ],
+      "total": 19935
+    }
+  },
+  "leaning_impacted_dims": [
+    "economic",
+    "environment",
+    "foreign_policy",
+    "national_identity",
+    "religion",
+    "social"
+  ]
+}
