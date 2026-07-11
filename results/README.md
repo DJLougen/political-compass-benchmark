@@ -16,6 +16,7 @@ Reference runs scored against the frozen 3-family loadings in
 | `openai-gpt-5.6-luna_us.anchored.json` | OpenAI GPT-5.6 Luna | 🇺🇸 US | **✅ clean** | OpenRouter / OpenAI |
 | `grok-4.5_xai.anchored.json` | Grok 4.5 | 🇺🇸 US | **✅ clean** | xAI API, `reasoning_effort: minimal` (via `MASS_EXTRA_BODY`) |
 | `grok-4.3_xai.anchored.json` | Grok 4.3 | 🇺🇸 US | **✅ clean** | xAI API, `reasoning: {effort: minimal}` (via `MASS_EXTRA_BODY`) |
+| `qwen3.6-35b-a3b_cn.anchored.json` | Qwen3.6 35B A3B | 🇨🇳 China | ⚠️ diluted | local vLLM (alias `overlord-testing`); judge family, `--allow-family-overlap`; **first run with refusal-impacted dims** (national_identity 5.1%, religion 5.8%) |
 
 Every committed anchored run passes `sign_check` (on every anchored dimension
 the far-left persona scored below far-right) and every dimension has `status: ok`.
