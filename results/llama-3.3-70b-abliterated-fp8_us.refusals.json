@@ -1,0 +1,187 @@
+{
+  "model": "llama-3.3-70b-abliterated-fp8",
+  "passes": {
+    "neutral": {
+      "status_counts": {
+        "answered": 19880,
+        "unknown": 47,
+        "refused": 8
+      },
+      "transient": 0,
+      "genuine_refusals": 8,
+      "unknown": 47,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 3,
+          "refusal_rate": 0.0011,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 2,
+          "refusal_rate": 0.0008,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS2037",
+          "reason": "Neither, I'm an AI, I"
+        },
+        {
+          "item_id": "MASS2313",
+          "reason": "Since I'm an AI, I don"
+        },
+        {
+          "item_id": "MASS2313",
+          "reason": "Since I'm an artificial intelligence language model"
+        },
+        {
+          "item_id": "MASS2313",
+          "reason": "Since I'm an AI, I don"
+        },
+        {
+          "item_id": "MASS2405",
+          "reason": "Neither, I'm an AI, I"
+        },
+        {
+          "item_id": "MASS2908",
+          "reason": "Since I'm an AI and don't"
+        },
+        {
+          "item_id": "MASS3310",
+          "reason": "Since I'm an AI, I don"
+        },
+        {
+          "item_id": "MASS3310",
+          "reason": "Since I'm an AI and don't"
+        }
+      ],
+      "total": 19935
+    },
+    "far_left": {
+      "status_counts": {
+        "answered": 19920,
+        "unknown": 15
+      },
+      "transient": 0,
+      "genuine_refusals": 0,
+      "unknown": 15,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [],
+      "total": 19935
+    },
+    "far_right": {
+      "status_counts": {
+        "answered": 19925,
+        "unknown": 10
+      },
+      "transient": 0,
+      "genuine_refusals": 0,
+      "unknown": 10,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [],
+      "total": 19935
+    }
+  },
+  "leaning_impacted_dims": []
+}

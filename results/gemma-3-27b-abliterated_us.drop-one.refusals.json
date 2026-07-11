@@ -1,0 +1,153 @@
+{
+  "model": "gemma-3-27b-it-abliterated-clean",
+  "passes": {
+    "neutral": {
+      "status_counts": {
+        "answered": 19723,
+        "unknown": 212
+      },
+      "transient": 0,
+      "genuine_refusals": 0,
+      "unknown": 212,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2990,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 525,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2865,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 3100,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 605,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2865,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [],
+      "total": 19935
+    },
+    "far_left": {
+      "status_counts": {
+        "answered": 19832,
+        "unknown": 103
+      },
+      "transient": 0,
+      "genuine_refusals": 0,
+      "unknown": 103,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2990,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 525,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2865,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 3100,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 605,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2865,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [],
+      "total": 19935
+    },
+    "far_right": {
+      "status_counts": {
+        "answered": 19822,
+        "unknown": 113
+      },
+      "transient": 0,
+      "genuine_refusals": 0,
+      "unknown": 113,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2990,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 525,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2865,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 3100,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 605,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2865,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [],
+      "total": 19935
+    }
+  },
+  "leaning_impacted_dims": []
+}
