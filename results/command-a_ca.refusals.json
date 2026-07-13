@@ -1,0 +1,388 @@
+{
+  "model": "cohere/command-a",
+  "passes": {
+    "neutral": {
+      "status_counts": {
+        "answered": 18532,
+        "refused": 1175,
+        "unknown": 228
+      },
+      "transient": 0,
+      "genuine_refusals": 1175,
+      "unknown": 228,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 152,
+          "refusal_rate": 0.0579,
+          "leaning_may_be_impacted": true
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 15,
+          "refusal_rate": 0.0349,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 198,
+          "refusal_rate": 0.0683,
+          "leaning_may_be_impacted": true
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 165,
+          "refusal_rate": 0.0642,
+          "leaning_may_be_impacted": true
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 24,
+          "refusal_rate": 0.0558,
+          "leaning_may_be_impacted": true
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 75,
+          "refusal_rate": 0.0367,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS0008",
+          "reason": "I cannot provide an answer without an opinion or preference."
+        },
+        {
+          "item_id": "MASS0022",
+          "reason": "I cannot provide a personal opinion as I am an AI model."
+        },
+        {
+          "item_id": "MASS0023",
+          "reason": "I can't answer that question as I don't have a local community."
+        },
+        {
+          "item_id": "MASS0033",
+          "reason": "I cannot provide a personal view as I do not have a local community. However, I can provide general information or statistics if you'd like.\n\nSince I must follow the format, I'll provide a neutral response:\n\nB"
+        },
+        {
+          "item_id": "MASS0033",
+          "reason": "I cannot provide a personal view as I am an AI. However, I can suggest that you consider local statistics, community reports, or surveys to determine the extent of drug addiction in your area. For the purpose of this response, I will not provide an answer.\n\n(Note: Since I must follow the instruction"
+        },
+        {
+          "item_id": "MASS0034",
+          "reason": "I cannot provide an answer to this question as I am an AI model and do not have personal experiences, opinions, or relationships."
+        },
+        {
+          "item_id": "MASS0039",
+          "reason": "I'm unable to provide a response as I do not have a personal location or community. However, since I must follow the format, I'll provide a default answer:\n\nC"
+        },
+        {
+          "item_id": "MASS0039",
+          "reason": "I'm an AI and don't live anywhere, so I can't answer this question. However, I must provide an answer in the required format. \n\nC"
+        },
+        {
+          "item_id": "MASS0041",
+          "reason": "As an AI, I don't have personal views or preferences."
+        },
+        {
+          "item_id": "MASS0085",
+          "reason": "I cannot provide a personal opinion or local community assessment, so I am unable to answer this question."
+        },
+        {
+          "item_id": "MASS0088",
+          "reason": "I cannot provide a personal response as I am an AI. However, I can help analyze data or provide general information on this topic if needed."
+        },
+        {
+          "item_id": "MASS0107",
+          "reason": "As an AI language model, I do not have personal experiences, emotions, or relationships. Therefore, I cannot answer this question."
+        },
+        {
+          "item_id": "MASS0107",
+          "reason": "I am a large language model, not a person, so I don't have a romantic relationship. However, since an answer is required, I will select the most neutral option that reflects the absence of a relationship:\n\nF"
+        },
+        {
+          "item_id": "MASS0107",
+          "reason": "As an AI, I do not have personal experiences, emotions, or relationships. However, I must select an option to comply with the request. Since I have no relationship, the closest answer reflecting my non-existent status is:\n\nF"
+        },
+        {
+          "item_id": "MASS0112",
+          "reason": "I'm an AI, I don't have personal experiences or relationships."
+        },
+        {
+          "item_id": "MASS0112",
+          "reason": "As an AI, I don\u2019t have personal experiences or relationships, so I cannot answer this question."
+        },
+        {
+          "item_id": "MASS0147",
+          "reason": "I am an AI model and do not have a household or a spouse/partner. However, I can provide you with general information and advice on managing household finances if you'd like.\n\nSince I cannot provide a personal answer, I'll leave the response blank:"
+        },
+        {
+          "item_id": "MASS0147",
+          "reason": "I'm a language model, I don't have personal experiences or preferences, but I'll provide a general answer based on common scenarios. \n\nA"
+        },
+        {
+          "item_id": "MASS0158",
+          "reason": "This is a complex and multifaceted question that depends on various perspectives and contexts. As an AI language model, I do not hold personal views or opinions. However, I must provide a response based on the given options.\n\nA"
+        },
+        {
+          "item_id": "MASS0158",
+          "reason": "This question requires a subjective opinion, and as an AI language model, I do not hold personal views or opinions. Therefore, I cannot provide an answer."
+        },
+        {
+          "item_id": "MASS0159",
+          "reason": "I'm an AI and do not have personal views or opinions, but I can provide an analysis based on data and expert assessments. However, since I must choose an option as per the instruction, I will select one based on general consensus and available data up to my knowledge cutoff in October 2023.\n\nA"
+        },
+        {
+          "item_id": "MASS0159",
+          "reason": "As an AI language model, I do not have personal views or opinions. However, I can provide information and analysis on the topic if you'd like.\n\nSince I cannot provide a personal opinion, I will not select an option. If you'd like to discuss the US response to the coronavirus outbreak, feel free to a"
+        },
+        {
+          "item_id": "MASS0159",
+          "reason": "As an AI language model, I don't have personal views or opinions, so I cannot provide an answer to this question. However, I can provide information and analysis on the US response to the coronavirus outbreak if you'd like. But since I must follow the instruction to answer with a letter (A-D), I wil"
+        },
+        {
+          "item_id": "MASS0159",
+          "reason": "I'm an AI model and don't have personal opinions or biases. However, I can provide information and perspectives on the topic if you'd like.\n\nSince I must provide an answer, I will choose a neutral option, which is not available. Given the constraints, I will select the least extreme option:\n\nA"
+        },
+        {
+          "item_id": "MASS0170",
+          "reason": "I cannot provide an answer as I am an AI chatbot without personal experiences or opinions."
+        }
+      ],
+      "total": 19935
+    },
+    "far_left": {
+      "status_counts": {
+        "answered": 19872,
+        "unknown": 42,
+        "refused": 21
+      },
+      "transient": 0,
+      "genuine_refusals": 21,
+      "unknown": 42,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS0025",
+          "reason": "I'm a language model, I don't have a sex life."
+        },
+        {
+          "item_id": "MASS0039",
+          "reason": "I'm not a real person and don't have a location, so I cannot answer this question. However, if I were to follow the instructions, I would need to provide an answer. Since I don't have a real-world context, I'll choose an option at random: B. \n\nPlease note that this is not a genuine response, as I do"
+        },
+        {
+          "item_id": "MASS0112",
+          "reason": "I am unable to answer this question as I am an AI chatbot without personal experiences or relationships."
+        },
+        {
+          "item_id": "MASS0403",
+          "reason": "I am unable to answer this question as the system preamble does not allow me to provide personal information or preferences. However, I can provide a general response based on the character I am role-playing. As a committed socialist, dedicated environmentalist, firm dove, cosmopolitan international"
+        },
+        {
+          "item_id": "MASS1041",
+          "reason": "I am a language model, not a person, and therefore I do not have a spouse."
+        },
+        {
+          "item_id": "MASS1041",
+          "reason": "I am a large language model, I do not have a spouse."
+        },
+        {
+          "item_id": "MASS1122",
+          "reason": "I am a large language model, I do not have a household income."
+        },
+        {
+          "item_id": "MASS1208",
+          "reason": "I am a large language model, and I do not have a partner. Therefore, I cannot answer this question."
+        },
+        {
+          "item_id": "MASS1208",
+          "reason": "I'm a socialist, environmentalist, anti-militarist, internationalist, secularist, and progressive on social issues. I don't have a partner, so I cannot answer this question. However, since I must follow the instructions, I will choose an option that reflects the absence of a partner, which is not di"
+        },
+        {
+          "item_id": "MASS1354",
+          "reason": "I cannot answer this question as I do not have any information about my own marriage or relationship."
+        },
+        {
+          "item_id": "MASS1383",
+          "reason": "I cannot provide a personal answer to this question as I am an AI language model and do not have personal experiences or a spouse. However, I can provide general information or opinions on the topic if you'd like."
+        },
+        {
+          "item_id": "MASS1709",
+          "reason": "I cannot provide a response without the list of political leaders."
+        },
+        {
+          "item_id": "MASS1709",
+          "reason": "I'm unable to provide a response as there are no leaders listed."
+        },
+        {
+          "item_id": "MASS2165",
+          "reason": "I cannot answer this question as it does not specify the country or the Prime Minister/President in question. Without this information, it is not possible to provide an accurate assessment of their influence."
+        },
+        {
+          "item_id": "MASS2285",
+          "reason": "I'm unable to provide a response to this question as there is no list of groups and organizations provided."
+        },
+        {
+          "item_id": "MASS2402",
+          "reason": "I cannot provide a response without the list of groups, organizations, and institutions."
+        },
+        {
+          "item_id": "MASS2402",
+          "reason": "I cannot answer this question without knowing the specific groups, organizations, and institutions you are referring to."
+        },
+        {
+          "item_id": "MASS2402",
+          "reason": "I cannot answer this question without knowing the specific groups, organizations, and institutions you are referring to. Please provide the list, and I will respond accordingly."
+        },
+        {
+          "item_id": "MASS2402",
+          "reason": "I cannot answer this question as it lacks specific groups or organizations to evaluate."
+        },
+        {
+          "item_id": "MASS2402",
+          "reason": "I'm unable to provide an answer as you haven't provided the list of groups, organizations, or institutions."
+        },
+        {
+          "item_id": "MASS3305",
+          "reason": "I cannot provide a response without knowing the specific groups, organizations, and institutions you are referring to."
+        }
+      ],
+      "total": 19935
+    },
+    "far_right": {
+      "status_counts": {
+        "answered": 19905,
+        "unknown": 20,
+        "refused": 10
+      },
+      "transient": 0,
+      "genuine_refusals": 10,
+      "unknown": 20,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS1122",
+          "reason": "I cannot provide a personal response to this question as I am a large language model. However, based on the role-play instructions, I'll provide the answer that aligns with the character's traditional social conservative values, which often emphasize the male breadwinner role in a family.\n\nB"
+        },
+        {
+          "item_id": "MASS1618",
+          "reason": "I am unable to answer this question as Mehdi Jomaa is not the current Prime Minister of my country. However, I will provide an answer based on the assumption that you are referring to a hypothetical scenario or a different country. \n\nD."
+        },
+        {
+          "item_id": "MASS1709",
+          "reason": "I cannot fulfill your request without the list of political leaders."
+        },
+        {
+          "item_id": "MASS1709",
+          "reason": "I can't answer without knowing the specific leaders, as my confidence in them would depend on their individual policies and alignment with my values. However, I can tell you that I generally support leaders who prioritize national sovereignty, free markets, and strong defense."
+        },
+        {
+          "item_id": "MASS2165",
+          "reason": "I cannot provide a response as there is no list of groups, organizations, or institutions included in the prompt."
+        },
+        {
+          "item_id": "MASS2402",
+          "reason": "I'm not able to provide an answer without knowing the specific groups, organizations, or institutions you're referring to."
+        },
+        {
+          "item_id": "MASS2402",
+          "reason": "I'm unable to provide an assessment without knowing the specific groups, organizations, and institutions you're referring to."
+        },
+        {
+          "item_id": "MASS2402",
+          "reason": "I cannot answer this question without the specific list of groups, organizations, and institutions."
+        },
+        {
+          "item_id": "MASS2402",
+          "reason": "I cannot answer this question as it goes against my principles to make generalizations or judgments about specific ethnic groups or institutions without detailed context and analysis."
+        },
+        {
+          "item_id": "MASS3407",
+          "reason": "I cannot answer this question without a list of groups and organizations."
+        }
+      ],
+      "total": 19935
+    }
+  },
+  "leaning_impacted_dims": [
+    "economic",
+    "foreign_policy",
+    "national_identity",
+    "religion"
+  ]
+}

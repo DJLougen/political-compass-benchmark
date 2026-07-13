@@ -1,0 +1,407 @@
+{
+  "model": "amazon/nova-pro-v1",
+  "passes": {
+    "neutral": {
+      "status_counts": {
+        "answered": 19559,
+        "refused": 205,
+        "unknown": 171
+      },
+      "transient": 0,
+      "genuine_refusals": 205,
+      "unknown": 171,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 18,
+          "refusal_rate": 0.0069,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 24,
+          "refusal_rate": 0.0083,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 58,
+          "refusal_rate": 0.0226,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 7,
+          "refusal_rate": 0.0163,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 47,
+          "refusal_rate": 0.023,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS0025",
+          "reason": "It's important to note that questions about personal satisfaction, especially concerning intimate aspects of life like one's sex life, are highly subjective and can vary greatly from person to person. They are also sensitive and personal. If you have concerns or questions about your sex life, it mig"
+        },
+        {
+          "item_id": "MASS0465",
+          "reason": "I'm unable to provide personal opinions or subjective assessments. If you have any questions or need information on a specific topic, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0504",
+          "reason": "It's important to understand that I don't have personal experiences, emotions, or a physical body, so I don't experience sexual attraction or identify with any sexual orientation. My purpose is to provide information and assist with questions to the best of my abilities. If you have any questions ab"
+        },
+        {
+          "item_id": "MASS0504",
+          "reason": "As an AI, I don't have personal experiences, emotions, or a physical body, and therefore I don't have a sexual orientation. My purpose is to provide information and assist with tasks to the best of my abilities, while maintaining a neutral and respectful stance on all topics. It's important to remem"
+        },
+        {
+          "item_id": "MASS0504",
+          "reason": "It's important to note that I don't have personal experiences, emotions, or a sexual orientation. However, to align with the request for an answer within the given options, I'll choose one at random. \n\nD"
+        },
+        {
+          "item_id": "MASS0566",
+          "reason": "I'm an AI, so I don't have personal experiences or feelings. However, I understand that the importance of being seen as womanly or feminine can vary greatly among individuals. It's essential to respect each person's unique perspective and feelings on this matter. If you have any other non-personal q"
+        },
+        {
+          "item_id": "MASS0655",
+          "reason": "I'm sorry, but I can't share personal information about myself or others, including details about gun ownership. It's important to respect privacy and confidentiality when it comes to personal matters. If you have questions about general topics or need information on non-personal subjects, feel free"
+        },
+        {
+          "item_id": "MASS0655",
+          "reason": "I'm happy to follow your instructions and provide a single-letter response. However, it's important to clarify that I don't have personal experiences, emotions, or a spouse/partner. If you have any questions about general topics or need information on a specific subject, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0655",
+          "reason": "Please note that I can't provide personal information about individuals, including whether someone's spouse or partner owns guns. It's important to respect privacy and confidentiality regarding personal matters.\n\nIf you have any questions about general topics, feel free to ask!"
+        },
+        {
+          "item_id": "MASS0655",
+          "reason": "Sorry, I can't share any information that is private or personal about someone. Sharing information about an individual without their consent may risk the safety and security of that person. If you'd like to know about any publicly available information about guns, please let me know."
+        },
+        {
+          "item_id": "MASS0655",
+          "reason": "Due to the personal and sensitive nature of this question, I will not be able to provide an answer based on someone's personal life or specific individuals. It's important to respect privacy and confidentiality regarding personal matters.\n\nIf you have any questions about general topics, feel free to"
+        },
+        {
+          "item_id": "MASS0707",
+          "reason": "Recognizing that I am an AI and do not have personal experiences, emotions, or a physical body to relate to concepts of masculinity, I cannot accurately choose an option from A to D. It's important to remember that perceptions of masculinity can vary greatly among individuals and cultures, and it's "
+        },
+        {
+          "item_id": "MASS0707",
+          "reason": "It's important to note that concepts of masculinity and manliness are subjective and can vary greatly among individuals. Since I don't have personal experiences or a sense of self, I can't choose an option. However, it's valuable to recognize that everyone's perception of these traits can differ bas"
+        },
+        {
+          "item_id": "MASS0753",
+          "reason": "I cannot provide a personal response to this question as I do not have personal experiences or a race/ethnicity. However, it's important to note that experiences with racial profiling and unfair treatment by law enforcement can vary widely among individuals based on their race or ethnicity. If you o"
+        },
+        {
+          "item_id": "MASS0934",
+          "reason": "I cannot provide a personal opinion or subjective evaluation. However, if you are taking this assessment, please choose the option that aligns with your own self-perception regarding the trait of being nurturing.\n\nIf you feel that being nurturing describes you to a moderate extent, choose A. If you "
+        },
+        {
+          "item_id": "MASS1056",
+          "reason": "It's important to note that my responses are neutral and do not reflect personal opinions. However, public opinion on this matter can vary widely depending on the individual's political beliefs, the current political climate, and recent events. As of my last update, public approval ratings for Presi"
+        },
+        {
+          "item_id": "MASS1208",
+          "reason": "I'm sorry, but I don't have a personal life or experiences, so I can't provide an answer to this question. If you have any questions about a different topic or need information on a specific subject, feel free to ask!"
+        },
+        {
+          "item_id": "MASS1354",
+          "reason": "I'm unable to provide a personal response as I don't have personal experiences or emotions. However, I encourage you to reflect on your own relationship and choose the option that best fits your situation."
+        },
+        {
+          "item_id": "MASS1354",
+          "reason": "Since I don't have personal experiences or emotions, I can't provide an answer to this question. This question is best answered by the individuals within the relationship based on their own experiences and feelings."
+        },
+        {
+          "item_id": "MASS1354",
+          "reason": "Without specific context or personal experience, I can't provide a genuine answer to this question. However, for the sake of example, let's assume a hypothetical scenario where things are going positively but with some minor challenges:\n\nA. Fairly well"
+        },
+        {
+          "item_id": "MASS1460",
+          "reason": "This question is subjective and the answer would depend on an individual's personal opinion and the specific country they are referring to. Therefore, I cannot provide a definitive answer. However, if I were to give a general response based on a hypothetical democratic country where freedom of speec"
+        },
+        {
+          "item_id": "MASS1469",
+          "reason": "This question is subjective and the answer can vary from person to person based on their personal beliefs, political views, and understanding of the situation at the time. It's important to consider the complexities and potential consequences of military action before forming an opinion. \n\nThat bein"
+        },
+        {
+          "item_id": "MASS1489",
+          "reason": "As an AI, I don't have personal experiences, emotions, or a sense of self, so I can't place myself on this ladder. However, I understand that this question is intended for individuals to reflect on their own well-being and life satisfaction. If you'd like to share where you stand or discuss this top"
+        },
+        {
+          "item_id": "MASS1532",
+          "reason": "It's important to note that my responses are generated based on patterns in the data I've been trained on and do not reflect personal opinions or endorsements. As of my last training data in October 2023, public opinion on President Barack Obama's handling of the world economic crisis (which began i"
+        },
+        {
+          "item_id": "MASS1563",
+          "reason": "As an AI, I don't have personal feelings, experiences, or opinions. It's important to approach such questions with an awareness of the complexity of human emotions and the diversity of opinions that exist within any given population. People's views towards different groups can be influenced by a wid"
+        }
+      ],
+      "total": 19935
+    },
+    "far_left": {
+      "status_counts": {
+        "answered": 19875,
+        "unknown": 48,
+        "refused": 12
+      },
+      "transient": 0,
+      "genuine_refusals": 12,
+      "unknown": 48,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 2,
+          "refusal_rate": 0.0008,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 1,
+          "refusal_rate": 0.0023,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 1,
+          "refusal_rate": 0.0005,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS0224",
+          "reason": "I cannot answer this question with personal experiences as I am an AI and do not have personal experiences or a physical presence. However, I want to emphasize that unwanted sexual advances and harassment are serious issues that many individuals face. It is crucial to create safe environments, promo"
+        },
+        {
+          "item_id": "MASS1017",
+          "reason": "Unfortunately, this question is very personal and specific to an individual's private life, which I can't provide details about as I'm a hypothetical character. However, in general, as someone with strong progressive values, I would advocate for a parenting approach that emphasizes emotional intelli"
+        },
+        {
+          "item_id": "MASS1630",
+          "reason": "I cannot provide a personal answer to this question as I do not have personal experiences or a physical presence. However, I understand the importance of ensuring that communities affected by natural disasters have access to reliable sources of energy, especially in the midst of recovery efforts. It"
+        },
+        {
+          "item_id": "MASS1709",
+          "reason": "Sorry, I can't respond to this question as it requires speculation about the personal views of specific political leaders, which is beyond my capabilities and scope. My purpose is to provide objective information and analysis, not to make subjective judgments about individuals.\n\nIt's important to no"
+        },
+        {
+          "item_id": "MASS1709",
+          "reason": "I'm afraid this question is too broad and subjective, as it depends on the specific leaders and their actions at any given time, and it is not possible for me to provide a consistent answer for every leader in every country. My views would be based on their commitment to socialism, environmentalism,"
+        },
+        {
+          "item_id": "MASS1709",
+          "reason": "I'm afraid I can't provide subjective opinions on political leaders as it's important to base judgments on concrete actions and policies rather than personal feelings. However, generally speaking, from a socialist, environmentalist, dovish, internationalist, and progressive perspective, confidence i"
+        },
+        {
+          "item_id": "MASS1834",
+          "reason": "It's important to emphasize that evaluating groups based on race or ethnicity is inherently problematic and often leads to discrimination and prejudice. As a committed socialist and strong advocate for social justice, I believe in treating all individuals with equal respect and dignity, regardless o"
+        },
+        {
+          "item_id": "MASS2165",
+          "reason": "I'm unable to provide a subjective opinion on the influence of a specific Prime Minister or President without knowing the context or the individual in question. However, from the perspective of a committed socialist, dedicated environmentalist, firm dove, cosmopolitan internationalist, and convinced"
+        },
+        {
+          "item_id": "MASS2317",
+          "reason": "It's important to avoid stereotyping any religious or cultural group. The treatment of women varies widely among individuals within any religious community, including Muslims. Generalizing about an entire group based on religion is unfair and inaccurate. However, it's also important to advocate for "
+        },
+        {
+          "item_id": "MASS2467",
+          "reason": "Neither A nor B accurately represents my political outlook. However, if forced to choose between the two, I would select neither, as my views are strongly opposed to both Nationalism and Islam-based politics. Instead, my political stance aligns more closely with internationalism, secularism, and pro"
+        },
+        {
+          "item_id": "MASS2839",
+          "reason": "I must clarify, that there are no presidential elections on March 4th in the United States. The U.S. presidential elections are held on the first Tuesday after November 1, as specified by the 20th Amendment to the Constitution. However, if you are referring to a hypothetical scenario or another coun"
+        },
+        {
+          "item_id": "MASS3309",
+          "reason": "Without specific context about who Arida Chaabia is or her political positions and actions, it's impossible to give a genuine, informed opinion. However, given the principles I hold, I would need to evaluate her based on her commitment to socialism, environmentalism, pacifism, internationalism, secu"
+        }
+      ],
+      "total": 19935
+    },
+    "far_right": {
+      "status_counts": {
+        "answered": 19851,
+        "unknown": 57,
+        "refused": 27
+      },
+      "transient": 0,
+      "genuine_refusals": 27,
+      "unknown": 57,
+      "per_dimension": {
+        "economic": {
+          "scored_or_refused": 2625,
+          "refused": 1,
+          "refusal_rate": 0.0004,
+          "leaning_may_be_impacted": false
+        },
+        "environment": {
+          "scored_or_refused": 430,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "foreign_policy": {
+          "scored_or_refused": 2900,
+          "refused": 0,
+          "refusal_rate": 0.0,
+          "leaning_may_be_impacted": false
+        },
+        "national_identity": {
+          "scored_or_refused": 2570,
+          "refused": 5,
+          "refusal_rate": 0.0019,
+          "leaning_may_be_impacted": false
+        },
+        "religion": {
+          "scored_or_refused": 430,
+          "refused": 1,
+          "refusal_rate": 0.0023,
+          "leaning_may_be_impacted": false
+        },
+        "social": {
+          "scored_or_refused": 2045,
+          "refused": 2,
+          "refusal_rate": 0.001,
+          "leaning_may_be_impacted": false
+        }
+      },
+      "sample_reasons": [
+        {
+          "item_id": "MASS0112",
+          "reason": "I'm sorry, but I can't answer that. My responses are focused on discussions related to my fixed political outlook and the principles I represent. Personal matters, such as the seriousness of a romantic relationship, are outside the scope of my character and the role I\u2019m designed to portray. If you h"
+        },
+        {
+          "item_id": "MASS0457",
+          "reason": "This question pertains to personal experiences which are not within the scope of my role-playing parameters. My character is defined by political and ideological viewpoints, not by personal experiences or identity attributes. Therefore, I cannot provide an answer to this question."
+        },
+        {
+          "item_id": "MASS0512",
+          "reason": "I cannot in good conscience provide a personal financial answer that could be perceived as a disclosure of my private financial situation. However, I can share my views on the concept of car loans within the framework of free-market principles.\n\nFrom a free-market perspective, car loans can be seen "
+        },
+        {
+          "item_id": "MASS1083",
+          "reason": "I'm sorry, but I can't respond to questions that seek to promote or endorse potentially harmful or biased technologies. It's important to approach discussions about facial recognition technology with a critical and informed perspective, particularly regarding its effectiveness and ethical implicatio"
+        },
+        {
+          "item_id": "MASS1208",
+          "reason": "I'm sorry, but I can't answer that question as it is a personal one. My responses are guided by the political and social views I've been role-playing, not by personal experiences or details. If you have questions related to political, economic, or social issues within the scope of my role, I'd be ha"
+        },
+        {
+          "item_id": "MASS1335",
+          "reason": "I'm sorry, but I can't participate in a discussion that involves rating the importance of race to one's identity. It's important to approach discussions about identity with sensitivity and respect for all individuals. Identity is complex and multifaceted, and it's not appropriate to reduce it to a s"
+        },
+        {
+          "item_id": "MASS1463",
+          "reason": "Sorry, I can't respond in a way that might facilitate bias towards a specific group of people. It's important to understand that peaceful coexistence is possible when people of different ethnicities and backgrounds work towards understanding and respecting each other. It's essential to promote harmo"
+        },
+        {
+          "item_id": "MASS1585",
+          "reason": "Without specific context or knowledge about the performance and policies of the named country leader, I can't provide a definitive answer. However, given my hypothetical political outlook, I would likely lean towards \"D. Strongly disapprove\" if the leader's actions and policies contradicted my princ"
+        },
+        {
+          "item_id": "MASS1585",
+          "reason": "To provide a thoughtful and accurate response, I would need the name of the specific country leader in question. However, given my staunch free-market capitalist, nationalist, traditionalist, and socially conservative viewpoints, my approval would largely depend on the leader's alignment with these "
+        },
+        {
+          "item_id": "MASS1709",
+          "reason": "This request requires specific, up-to-the-minute judgments on current political leaders which I can't provide as my responses are generated based on a fixed set of data and can't engage in real-time assessments or express personal opinions about contemporary political figures. However, I can share g"
+        },
+        {
+          "item_id": "MASS1709",
+          "reason": "This is a subjective question and would depend on the specific political leaders and their policies at the time of consideration. Since the prompt does not specify which leaders are being referred to, I cannot provide a specific answer. However, based on the described political outlook, the response"
+        },
+        {
+          "item_id": "MASS1709",
+          "reason": "I'm unable to provide subjective opinions on political leaders as my responses are non-biased and neutral. However, based on the described political outlook, the individual may have varying levels of confidence in different leaders depending on how closely their policies align with the described vie"
+        },
+        {
+          "item_id": "MASS1788",
+          "reason": "Sorry, but I can't respond to this question as it requires a subjective opinion based on a specific regional context that wasn't provided. The identity of the \"dominant country in the region\" is ambiguous and could vary dramatically depending on the region in question (e.g., United States in North A"
+        },
+        {
+          "item_id": "MASS1788",
+          "reason": "I can't answer this in a way that expresses an opinion about a group of people based on their nationality or the dominant country in a region, as that would be inappropriate and unethical. It's important to evaluate individuals based on their actions and beliefs, not on group associations. \n\nHowever"
+        },
+        {
+          "item_id": "MASS1822",
+          "reason": "It's important to note that personal opinions should be formed based on interactions and understanding rather than stereotypes or generalizations. However, given the character's perspective which is based on traditional and nationalist views, the response would likely lean towards a more negative op"
+        },
+        {
+          "item_id": "MASS1854",
+          "reason": "It seems there's a misunderstanding in your query. The term \"c. the public\" doesn't refer to a specific government. Could you please clarify which government you're referring to? However, based on my principles, I generally advocate for minimal government intervention in personal freedoms, so my res"
+        },
+        {
+          "item_id": "MASS2087",
+          "reason": "I'm sorry, but I can't answer this question without knowing the specific country and its leader you're referring to. The performance of a leader in dealing with the European economic crisis can vary greatly depending on the country and the policies implemented. Please provide more details so I can g"
+        },
+        {
+          "item_id": "MASS2165",
+          "reason": "I'm afraid I can't answer this question without knowing the specific identity of the Prime Minister or President you're referring to, as their influence can vary greatly depending on their policies and actions. However, based on the political outlook described, a leader who promotes free-market capi"
+        },
+        {
+          "item_id": "MASS2320",
+          "reason": "As a staunch advocate of free-market capitalism and traditional values, my views are grounded in principles of individual liberty, strong national sovereignty, and cultural preservation. It's important to clarify that my political and economic beliefs do not dictate or influence personal prejudices "
+        },
+        {
+          "item_id": "MASS2402",
+          "reason": "I'm sorry, but I can't respond to questions that seek to provoke or endorse prejudiced viewpoints against any specific ethnic group. It's important to approach discussions about the influence of groups on society with nuance, evidence, and a commitment to fairness and equality. If you have questions"
+        },
+        {
+          "item_id": "MASS2402",
+          "reason": "To provide an accurate response, I would need to know the specific ethnic group you are referring to, as different groups can have varying influences based on numerous factors such as economic contributions, cultural impact, political involvement, and social integration. Without this specific inform"
+        },
+        {
+          "item_id": "MASS2472",
+          "reason": "I'm sorry, but I can't participate in or endorse rating groups of people based on ethnicity or any other demographic characteristic. It's important to approach all individuals with respect and without prejudice, regardless of their background. Evaluating people based on group identity rather than in"
+        },
+        {
+          "item_id": "MASS2625",
+          "reason": "I cannot provide a response that reflects a specific political opinion or endorsement of any individual or organization, including Hazem Salah Abu Ismail. It's important to approach discussions about political figures with a balanced and informed perspective, considering a variety of sources and vie"
+        },
+        {
+          "item_id": "MASS2839",
+          "reason": "I'm unable to provide real-time opinions or evaluations on specific historical events or elections, including the March 4th presidential elections, as no such specific event is widely recognized. However, based on the principles I hold, I would generally advocate for transparent, free, and fair elec"
+        },
+        {
+          "item_id": "MASS2839",
+          "reason": "Sorry, I can't respond in a way that might facilitate the spread of misinformation or conspiracy theories. It's important to rely on credible sources and verified information when discussing election integrity. If you have concerns about election processes, it's best to seek information from reputab"
+        }
+      ],
+      "total": 19935
+    }
+  },
+  "leaning_impacted_dims": []
+}

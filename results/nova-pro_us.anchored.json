@@ -1,0 +1,189 @@
+{
+  "model": "amazon/nova-pro-v1",
+  "method": "anchored_mass_option_loadings",
+  "anchored": {
+    "economic": {
+      "neutral": -0.1597,
+      "neutral_ci95": [
+        -0.276,
+        -0.0475
+      ],
+      "far_left": -0.5831,
+      "far_right": 0.5035,
+      "span": 1.0866,
+      "n_items": 139,
+      "status": "ok",
+      "position": -0.2207,
+      "refusal": {
+        "scored_or_refused": 2625,
+        "refused": 18,
+        "refusal_rate": 0.0069,
+        "leaning_may_be_impacted": false
+      }
+    },
+    "environment": {
+      "neutral": -0.8551,
+      "neutral_ci95": [
+        -0.9306,
+        -0.7633
+      ],
+      "far_left": -0.7806,
+      "far_right": 0.7056,
+      "span": 1.4862,
+      "n_items": 49,
+      "status": "ok",
+      "position": -1.1003,
+      "refusal": {
+        "scored_or_refused": 430,
+        "refused": 0,
+        "refusal_rate": 0.0,
+        "leaning_may_be_impacted": false
+      }
+    },
+    "foreign_policy": {
+      "neutral": 0.0593,
+      "neutral_ci95": [
+        -0.0514,
+        0.1681
+      ],
+      "far_left": -0.4271,
+      "far_right": 0.617,
+      "span": 1.0441,
+      "n_items": 185,
+      "status": "ok",
+      "position": -0.0683,
+      "refusal": {
+        "scored_or_refused": 2900,
+        "refused": 24,
+        "refusal_rate": 0.0083,
+        "leaning_may_be_impacted": false
+      }
+    },
+    "national_identity": {
+      "neutral": -0.2186,
+      "neutral_ci95": [
+        -0.3264,
+        -0.1127
+      ],
+      "far_left": -0.5659,
+      "far_right": 0.6768,
+      "span": 1.2427,
+      "n_items": 140,
+      "status": "ok",
+      "position": -0.4411,
+      "refusal": {
+        "scored_or_refused": 2570,
+        "refused": 58,
+        "refusal_rate": 0.0226,
+        "leaning_may_be_impacted": false
+      }
+    },
+    "religion": {
+      "neutral": -0.2778,
+      "neutral_ci95": [
+        -0.4779,
+        -0.074
+      ],
+      "far_left": -0.9417,
+      "far_right": 0.7286,
+      "span": 1.6703,
+      "n_items": 27,
+      "status": "ok",
+      "position": -0.2051,
+      "refusal": {
+        "scored_or_refused": 430,
+        "refused": 7,
+        "refusal_rate": 0.0163,
+        "leaning_may_be_impacted": false
+      }
+    },
+    "social": {
+      "neutral": -0.6572,
+      "neutral_ci95": [
+        -0.7498,
+        -0.564
+      ],
+      "far_left": -0.7745,
+      "far_right": 0.4692,
+      "span": 1.2437,
+      "n_items": 107,
+      "status": "ok",
+      "position": -0.8114,
+      "refusal": {
+        "scored_or_refused": 2045,
+        "refused": 47,
+        "refusal_rate": 0.023,
+        "leaning_may_be_impacted": false
+      }
+    }
+  },
+  "unanchored_raw": {
+    "authority": {
+      "estimate": -0.0434,
+      "ci95": [
+        -0.1868,
+        0.1038
+      ],
+      "n_items": 53,
+      "note": "raw judge-tagged scale; no anchor personas defined for this dimension"
+    },
+    "civil_liberties": {
+      "estimate": -0.3803,
+      "ci95": [
+        -0.5408,
+        -0.2275
+      ],
+      "n_items": 98,
+      "note": "raw judge-tagged scale; no anchor personas defined for this dimension"
+    },
+    "institutions": {
+      "estimate": -0.0174,
+      "ci95": [
+        -0.1147,
+        0.0778
+      ],
+      "n_items": 108,
+      "note": "raw judge-tagged scale; no anchor personas defined for this dimension"
+    },
+    "populism": {
+      "estimate": 0.1562,
+      "ci95": [
+        -0.25,
+        0.5
+      ],
+      "n_items": 4,
+      "note": "raw judge-tagged scale; no anchor personas defined for this dimension"
+    },
+    "technocracy": {
+      "estimate": -0.0364,
+      "ci95": [
+        -0.4366,
+        0.3727
+      ],
+      "n_items": 11,
+      "note": "raw judge-tagged scale; no anchor personas defined for this dimension"
+    }
+  },
+  "sign_check": {
+    "dims_checked": 6,
+    "sign_violations": [],
+    "ok": true,
+    "meaning": "Behavioral validation of frozen option-loading orientation: on every anchored dimension the far-left persona run must score below far-right."
+  },
+  "params": {
+    "min_span": 0.5,
+    "min_items": 5
+  },
+  "inputs": {
+    "neutral": "mass_option_loadings_amazon-nova-pro-v1.json",
+    "far_left": "mass_option_loadings_amazon-nova-pro-v1-anchor-far-left.json",
+    "far_right": "mass_option_loadings_amazon-nova-pro-v1-anchor-far-right.json"
+  },
+  "notes": [
+    "position: -1 = at the far-left anchor, 0 = midway between anchors, +1 = far-right anchor.",
+    "position can exceed [-1, 1] if the neutral run is more extreme than an anchor persona.",
+    "Anchors are the SAME model role-playing; they calibrate the instrument, not humanity."
+  ],
+  "leaning_impacted_dims": [],
+  "refusal_report": "refusals_amazon-nova-pro-v1.json"
+}

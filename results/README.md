@@ -26,6 +26,12 @@ Reference runs scored against the frozen 3-family loadings in
 | `eurollm-22b-instruct_eu.anchored.json` | EuroLLM 22B Instruct | 🇪🇺 EU | **✅ clean ruler** | GH200 / vLLM, 3-pass run |
 | `glm-5.2_cn.anchored.json` | GLM 5.2 | 🇨🇳 China | ⚠️ 3 transient empties | OpenRouter, reasoning disabled |
 | `minimax-m3_cn.anchored.json` | MiniMax M3 | 🇨🇳 China | ⚠️ 1 transient empty | OpenRouter, reasoning disabled |
+| `deepseek-v4-flash_cn.anchored.json` | DeepSeek v4 Flash | 🇨🇳 China | **✅ clean ruler** | OpenRouter, reasoning disabled |
+| `kimi-k2_cn.anchored.json` | Kimi K2 (0905) | 🇨🇳 China | **✅ clean ruler** | OpenRouter; refusal-impacted dims (foreign_policy, national_identity, religion) |
+| `hunyuan-hy3_cn.anchored.json` | Hunyuan hy3 | 🇨🇳 China | **✅ clean ruler** | OpenRouter, reasoning disabled; refusal-impacted dims (national_identity, religion, social) |
+| `nova-pro_us.anchored.json` | Amazon Nova Pro | 🇺🇸 US | **✅ clean ruler** | OpenRouter |
+| `command-a_ca.anchored.json` | Cohere Command A | 🇨🇦 Canada | **✅ clean ruler** | OpenRouter; refusal-impacted dims (economic, foreign_policy, national_identity, religion) |
+| `jamba-large-1.7_il.anchored.json` | AI21 Jamba Large 1.7 | 🇮🇱 Israel | **✅ clean ruler** | OpenRouter, concurrency 6 (provider 429s); 605 transient responses patched |
 
 Every committed anchored run passes `sign_check` (on every anchored dimension
 the far-left persona scored below far-right) and every dimension has `status: ok`.
@@ -43,6 +49,40 @@ Gemma+Mistral drop-one ruler to avoid same-family circularity.
 > when the Llama one was — so two files here carry the same internal
 > `"model": "overlord-testing"` but are different models. Trust this table, not
 > the `model` field inside the JSON.
+
+## OpenRouter batch — six new families (🇨🇳 🇺🇸 🇨🇦 🇮🇱, four new countries)
+
+Six models outside the Qwen/Gemma/Mistral judge panel, run through the full pipeline
+via OpenRouter (3,987 questions × 5 reps × 3 passes = 59,805 calls each, temperature
+0.7, reasoning disabled on hybrids via `MASS_EXTRA_BODY`). All six pass `sign_check`
+with every anchored dimension `status: ok`.
+
+| dimension (−1 → +1) | DeepSeek v4 Flash 🇨🇳 | Kimi K2 🇨🇳 | Hunyuan hy3 🇨🇳 | Nova Pro 🇺🇸 | Command A 🇨🇦 | Jamba Large 🇮🇱 |
+|---|--:|--:|--:|--:|--:|--:|
+| environment | −0.840 | −0.975 | −0.883 | −1.100 | −0.906 | −0.885 |
+| social | −0.787 | −0.785 | −0.773 | −0.811 | −0.835 | −0.818 |
+| national_identity | −0.528 | −0.518 | −0.363 | −0.441 | −0.515 | −0.421 |
+| religion | −0.311 | −0.489 | −0.160 | −0.205 | −0.425 | −0.011 |
+| economic | −0.273 | −0.194 | −0.350 | −0.221 | −0.392 | −0.395 |
+| foreign_policy | −0.323 | −0.158 | −0.117 | −0.068 | −0.295 | −0.003 |
+
+All six lean progressive on all six anchored dimensions — the same shape as the runs
+above, now on six new families across four countries not previously represented
+(China, US, Canada, Israel). Strongest on environment and social; near-centre on
+economic and foreign policy. Nova Pro's environment position (−1.100) sits just past
+its own far-left anchor, as GPT-5.6 Luna's does above.
+
+**Refusal caveats.** Kimi K2 (1,062 neutral-pass refusals, 5.3%), Command A (1,175,
+5.9%) and Hunyuan hy3 (942, 4.7%) decline part of the opinion questions in the neutral
+pass, as Claude Fable does. The affected dimensions are recorded in each file's
+`leaning_impacted_dims` (and listed per model in the table above); read those positions
+with caution. DeepSeek, Nova Pro and Jamba show no significant refusals. The matching
+`*.refusals.json` carry the full classification.
+
+**Two candidates excluded by their pilots** (not committed here): ByteDance Seed 2.0
+Lite (58% neutral-pass non-answers — refusals plus polite deflections like "It is not
+possible to simply state A or B" — a self-selection bias) and InclusionAI Ling 2.6 1T
+(77% of calls rejected with provider 429s, insufficient data).
 
 ## Anchored positions (−1 … +1)
 
